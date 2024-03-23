@@ -1,0 +1,1628 @@
+########################################
+# Program: water
+# Rundate: Fri 22 Mar 2024 19:41:45
+# Commandline: water
+#    -asequence gpd2_human.fna
+#    -bsequence gpd2_mouse.fna
+#    -outfile water_alignment.txt
+# Align_format: srspair
+# Report_file: water_alignment.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 156400281-156586403
+# 2: 57127690-57260731
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19933
+# Identity:    8258/19933 (41.4%)
+# Similarity:  8258/19933 (41.4%)
+# Gaps:        9343/19933 (46.9%)
+# Score: 12736.5
+# 
+#
+#=======================================
+
+156400281-156      2 GTCTCCATGAGCACCCGAGG---------------CGACGCT---CGCGG     33
+                     |.||||    |||.|| |||               |.|| ||   ||.||
+57127690-5726      3 GGCTCC----GCAGCC-AGGGTTCTCCGCCTCCCCCCAC-CTGTACGAGG     46
+
+156400281-156     34 CGCGGCCCGAGCGCTGGGCCCGGGCTC-----------------GAGGTT     66
+                     |.|||||    |||||||||.|.||||                 ||  ||
+57127690-5726     47 CCCGGCC----CGCTGGGCCAGCGCTCAGCATCCCACCCTTGCTGA--TT     90
+
+156400281-156     67 TGG------------ACCGG-----GGTTCTA---------CCCGGCAGC     90
+                     |||            |.|||     |||.|||         |||||    
+57127690-5726     91 TGGCTTGTTCTTCTCAGCGGGTCCCGGTGCTAACATTCAGGCCCGG----    136
+
+156400281-156     91 AAAG--CCAGAGGCCGG--------ACACACCACGGCCTCCTGG---ATC    127
+                        |  |||.|||||.|        |||.|.||||     ||||   |||
+57127690-5726    137 ---GGTCCACAGGCCTGGAGCGCCCACAGAACACG-----CTGGGGTATC    178
+
+156400281-156    128 TGCGCTG---CCTGCGCAATAAGCCTGGGGAGGTGCC---AG--------    163
+                     ||.||.|   .||||     |.|||    || ||.||   ||        
+57127690-5726    179 TGGGCCGAGAGCTGC-----AGGCC----GA-GTCCCTAGAGTCCCCCGA    218
+
+156400281-156    164 CTCCGGCAGGCAT---TGGGCACCCGGG-AGTCCCGCCGCTGTGGCCGCG    209
+                     ||||...|.||.|   |.||| ||.||| ||.|..||.|||| ||..|||
+57127690-5726    219 CTCCTAGACGCCTTTCTAGGC-CCAGGGAAGCCTGGCGGCTG-GGAGGCG    266
+
+156400281-156    210 C-----AGGG--CACCGGATC----------CCTC-------CAGG----    231
+                     |     ||||  |.|||||||          |..|       ||||    
+57127690-5726    267 CGGAGGAGGGGACGCCGGATCTAAGGGCGCGCGACGGGTGATCAGGTAAG    316
+
+156400281-156    232 ---ATCCC---AGGCTCCCG---------ACGTCC---------------    251
+                        |.|||   ||||..|.|         ||||||               
+57127690-5726    317 GCAACCCCGGTAGGCAGCAGGCGGGGGAAACGTCCTCCCCCTAGGGCAGA    366
+
+156400281-156    252 -AGCAGAAGTG------CTCTGGAGTGA--------------------GG    274
+                      .||||.||||      .|..||||.||                    ||
+57127690-5726    367 TGGCAGGAGTGGCCCGCGTGGGGAGGGACAGAAACCCAACACCACAGCGG    416
+
+156400281-156    275 CTTCATTGGTCCCAGGTGAGC--------GTTTCGTTGCCAGC-------    309
+                     ||||...|| ||.||.|.|||        .||||.|  |||||       
+57127690-5726    417 CTTCCCCGG-CCTAGCTCAGCCCTCTCTTCTTTCCT--CCAGCTAGCAAG    463
+
+156400281-156    310 ------------------TCGT--TGCGCGAGGTCTGAATGCACAGTGGA    339
+                                       ||||  |.|||..||.||.|..|||    |||
+57127690-5726    464 GAGTGGCAGGGTATGGAGTCGTGCTCCGCCGGGGCTCAGGGCA----GGA    509
+
+156400281-156    340 --AACAACTTAGGG--TGGGTA-----------TGGGAAAAGAAGAAACA    374
+                       .|.|||.|.|||  |||..|           ||.|      |||..||
+57127690-5726    510 TCGATAACCTCGGGCATGGCCAGCCCACGTCCCTGCG------AGACCCA    553
+
+156400281-156    375 TA---------------------TTT-----CAGAAGCACT--CGCCAAT    396
+                     .|                     |||     |.|..|||||  |||    
+57127690-5726    554 GAGCGCCGGGTCTGCAGCCGCCCTTTCCCACCGGCTGCACTTCCGC----    599
+
+156400281-156    397 ATAAATTTTTAAAAATAAAGATCTTAATACAGTAATTTGACT-------A    439
+                                                       ||||..||       |
+57127690-5726    600 ----------------------------------ATTTCCCTGCCGGGCA    615
+
+156400281-156    440 GAGCTAGC----------------------AGAC--TGAATGAGT-----    460
+                     ||| |.||                      ||.|  ||..|||||     
+57127690-5726    616 GAG-TCGCCCGGGCCGCGGTGTCGCGGCGAAGGCGGTGGCTGAGTTGCCG    664
+
+156400281-156    461 ----AT-------------GGA----CACCAGAAATATGCTTTCGGCTGG    489
+                         ||             |||    |||.||            ||..||
+57127690-5726    665 GATCATCCCCCGGGGAGGCGGAGGCGCACGAG------------GGGAGG    702
+
+156400281-156    490 GGGATGTAGCTC---AGTG--GTAGAGCGCGCGCTTCGCAT----GTG--    528
+                     .|||.||.|| |   ||.|  ||.| |||.|||..|||..|    |||  
+57127690-5726    703 AGGAAGTGGC-CGGGAGGGGCGTCG-GCGGGCGGGTCGGGTTACGGTGGC    750
+
+156400281-156    529 ------TGAGGTCCCGGGTTCA-ATCCCCGGC---ATCTCC---AAATCA    565
+                           |||   |||||  |.| || ||||||   .||.||   |..|||
+57127690-5726    751 CCCGCCTGA---CCCGG--TGACAT-CCCGGCGCGCTCGCCGCGAGCTCA    794
+
+156400281-156    566 --GCCGACGTTTGCTTTT----------TATTTTTTCTCCTTTC---CTG    600
+                       ||| || |.||.||.|          .|      ||||.|||   |||
+57127690-5726    795 GGGCC-AC-TCTGGTTCTCGGTGAGGCCGA------CTCCGTTCTGGCTG    836
+
+156400281-156    601 TTGTATCTTAGAACACTTACCCCATTACTTGTACATACATTTTGCTC---    647
+                     ..|.|||        ||.||.||.||.||.|  |..||...||||.|   
+57127690-5726    837 GAGGATC--------CTGACTCCCTTGCTCG--CCGACCCCTTGCGCGTG    876
+
+156400281-156    648 ---AC--ATCT-AGG-----CCGCCCAAAAACAATATAAAAGGAG-----    681
+                        ||  |||| |||     .||.||              .||.|     
+57127690-5726    877 ACGACCGATCTCAGGTGTGTGCGTCC--------------TGGCGACCTG    912
+
+156400281-156    682 ------------GGCTGAAAAAAATC----AGCGAAG------CTCAGGG    709
+                                 ||||        ||    || ||||      |||...|
+57127690-5726    913 GTCCTCTGCCTCGGCT--------TCTAGGAG-GAAGTGGTCCCTCTCTG    953
+
+156400281-156    710 AAACCACCTTCT-TGACT------------------GCTCGAAGTAAAAG    740
+                     |      |||.| |||||                  || .||.||..|.|
+57127690-5726    954 A------CTTGTGTGACTCGGTGGGACTGCGGTGTGGC-GGAGGTGGAGG    996
+
+156400281-156    741 TG------------AAATAGG----------GAATTGGCTTTCATTA---    765
+                     ||            ||.|.||          |||||.|.|..||..|   
+57127690-5726    997 TGGTGGTGGCGGGAAACTGGGGCGAGACTGTGAATTTGTTCCCACCAACG   1046
+
+156400281-156    766 ----------ATACTTCTTTATTTGCATGAGTCCAGTGTTTAAAGGC---    802
+                               |.|.||||       ||    |.|||.|||   ||||   
+57127690-5726   1047 GAGGAGGAGCACAATTCT-------CA----TTCAGGGTT---AGGCGAG   1082
+
+156400281-156    803 CCTGTTATTGAAC-TTTGAG----GCT---CCT--GTGTATG------AT    836
+                     .|||..||   || ||||||    |||   |||  .||.|.|      .|
+57127690-5726   1083 ACTGGAAT---ACGTTTGAGATACGCTTTACCTAGCTGGAGGCAGGGCGT   1129
+
+156400281-156    837 ACCCACA-GAAAAAAACT------AGAAGTCAAAACTTG-----------    868
+                     .|||||| .||..|||||      | ||||...||||||           
+57127690-5726   1130 TCCCACATCAATGAAACTTTATGCA-AAGTTTTAACTTGTGAAAGTGGCT   1178
+
+156400281-156    869 -------------------------CATT---------GGCCGGGAATCG    884
+                                              |.||         |||.|||||   
+57127690-5726   1179 TGTCTGATGCGGAGGCTTGCTGTTTCCTTCTGAGGTGAGGCGGGGAA---   1225
+
+156400281-156    885 AACCC----------GGG-------------------CCTC-----CCGC    900
+                     .||||          |||                   .|||     |||.
+57127690-5726   1226 GACCCTTCTGCAAGGGGGAGGAGGCTTTCTTTGAGAAACTCAGTTGCCGG   1275
+
+156400281-156    901 G-------TGG--CAGGCGAGAATTCTACCACTGAAC-----CACCAATG    936
+                     |       |||  ||||.|..|||.|.|  |.||.||     ||.||  |
+57127690-5726   1276 GGTGTGACTGGCCCAGGAGGAAATGCAA--AGTGTACACCGGCAACA--G   1321
+
+156400281-156    937 CTT-----------ATAGCAAATGTGCTTTTCTA--------TTGCTTAC    967
+                     |.|           |.|||||.||||..||.|.|        |||||.|.
+57127690-5726   1322 CCTCCTCTCTCCGCAAAGCAACTGTGTCTTGCCAAAGAAAGTTTGCTGAG   1371
+
+156400281-156    968 T------------AGAAGACACTTA-CACCCTGGTAAT--TCTCTAAACA   1002
+                     |            .||||.|..||| ||    |||.||  ||.|||.||.
+57127690-5726   1372 TGCTGCAGCTTTAGGAAGGCTTTTAGCA----GGTGATGGTCCCTAGACC   1417
+
+156400281-156   1003 ATC---------------------ACGTATTTGTGTATTCAAAAACAG--   1029
+                     .||                     |||||.|..||       ||||||  
+57127690-5726   1418 GTCCTTTATCCCTTAGGAAGATATACGTACTCCTG-------AAACAGCC   1460
+
+156400281-156   1030 ---AGAAAGCAA---------TT--AAATTTTTAATCACA--------TA   1057
+                        ...||||||         ||  |||..||.|||.|||        ||
+57127690-5726   1461 TTCCTCAAGCAACACAAGTTCTTACAAAAGTTCAATGACAGGGGCATCTA   1510
+
+156400281-156   1058 ---GTTATAAAAAAT------------------TAGAAAAACA-------   1079
+                        ||||.||.||.|                  ||.|.|||||       
+57127690-5726   1511 AGTGTTACAAGAAGTAAATATCCCAGGGGTTGCTACAGAAACAGCCAAAA   1560
+
+156400281-156   1080 -TTAACATTT----------------------------------------   1088
+                      || ||||||                                        
+57127690-5726   1561 GTT-ACATTTGTCAATTTGTGTGAGTAGGTGAGAGAAGGAAGTTGCCCTG   1609
+
+156400281-156   1089 ----------ACAAAAATTTTCATTATAC---TACTTTAGAACTTTATGA   1125
+                               ||||||.|||..||..|.|   || |||..||.||  |||
+57127690-5726   1610 TTTGCTTAAAACAAAACTTTGTATCTTGCATGTA-TTTCAAAGTT--TGA   1656
+
+156400281-156   1126 GATTCTTCTGAAACTCTCTTTGGTGAAGGAGGCAAA-------TGA----   1164
+                     ||.|||| .|||..||||||| .||||.|.|| |||       |||    
+57127690-5726   1657 GAGTCTT-GGAATTTCTCTTT-TTGAACGTGG-AAAGTGCTGGTGATGGC   1703
+
+156400281-156   1165 ---------------------------AGATTTTGTCATGTATGCA----   1183
+                                                ||.|.|||    ||..|||    
+57127690-5726   1704 CTCTCTGGGACCATGGGGCTTCTTGGGAGCTGTTG----GTTAGCATATG   1749
+
+156400281-156   1184 ----CAGGATTACACAATCACC-------TAGC-----CTATCT-TCAGA   1216
+                         |.||||   .|.||..||       ||||     ||.||| |..|.
+57127690-5726   1750 GGGCCTGGAT---GCCATTGCCCAGTGGATAGCATGTGCTGTCTCTGGGG   1796
+
+156400281-156   1217 CACTTA--GATAATTTATAACAACTCTCCC--------------------   1244
+                     | ||||  |||.|.|..|.|.|.|||.|||                    
+57127690-5726   1797 C-CTTAATGATGAGTGTTGAAACCTCCCCCTGTTTCTCATAGAGACATTA   1845
+
+156400281-156   1245 -TCCAACCCCCTGCCATTTTTTTCTTTTATTATTTT----ACCTA----T   1285
+                      ||.|||..||  .||.||..|||       |||||    |||||    |
+57127690-5726   1846 GTCAAACGACC--ACACTTCCTTC-------ATTTTAGCAACCTAACCCT   1886
+
+156400281-156   1286 TCA-------GACAAATACATAATGGAGATTTGTTAGAAATTGGGAACAG   1328
+                     |||       ||       |.|||||      |..||||.||||||..||
+57127690-5726   1887 TCACCTCAGTGA-------ACAATGG------GAAAGAATTTGGGATGAG   1923
+
+156400281-156   1329 AGGCAAAGAAACAGGGAACAGAAATTTGAACACTG---------------   1363
+                     ||.|||          |||.|   ||.||||.|||               
+57127690-5726   1924 AGACAA----------AACTG---TTAGAACTCTGCTTTCTGAGAGCATT   1960
+
+156400281-156   1364 ACCCAAAT-------TTATGATTTGGAAATTGGTAAATT---GGAACTAT   1403
+                     |..||.||       ||||       ||||..|| .|||   |||||.||
+57127690-5726   1961 AGTCACATAGTCACCTTAT-------AAATAAGT-CATTCTAGGAACCAT   2002
+
+156400281-156   1404 GTG-----ATTTGCAT------------------AGGGAACTTGAAATA-   1429
+                     |.|     |.||||||                  ||||.|| .||..|| 
+57127690-5726   2003 GGGAAGGCAGTTGCATGCCTCACTGTTAATGAAAAGGGCAC-AGAGTTAG   2051
+
+156400281-156   1430 ----------TTGATGATTCA-AGCCAAGTGACCTGAATTCTCTAAGCTG   1468
+                               |.||||  ||| |.||.|.||  ||||.|..|.|||    
+57127690-5726   2052 CAGTTCTCAGTGGATG--TCACACCCCACTG--CTGAGTCTTATAA----   2093
+
+156400281-156   1469 CCCCT--TCCTTCATTTA-AGACCCCTTTTAACTCTAATAGTATGAGTCT   1515
+                        ||  |.||||  ||| ||||        |.||.||   .|.|||| |
+57127690-5726   2094 ---CTAATGCTTC--TTATAGAC--------AGTCAAA---AAAGAGT-T   2126
+
+156400281-156   1516 GATCCT-TCACCCTTAGTTTCCAAGGAAAGTGAAATTG---TGAATGAT-   1560
+                     |||  | ||||..|          |||   ||||  ||   |||||||| 
+57127690-5726   2127 GAT--TGTCACTGT----------GGA---TGAA--TGAGATGAATGATG   2159
+
+156400281-156   1561 ---ACA-AC-AAAAGA----------TAT-------------AGGAGGGG   1582
+                        ||| || .|.|||          |||             ||||.|  
+57127690-5726   2160 TTGACATACTGATAGAATTCTTACATTATCCTGTCCATAGTCAGGATG--   2207
+
+156400281-156   1583 AAAAAAATAAAG--------------TGAAGGAAATGGA-TTTATGGAAA   1617
+                             .|||              |.|||   ||..| ||||||.|.|
+57127690-5726   2208 --------TAAGTTTTTTTTTTTTTTTTAAG---ATTTATTTTATGTATA   2246
+
+156400281-156   1618 TGATT---CTAAA----TACGAGATAAAAGGC-TGTGGATATAGGCAACA   1659
+                     |||.|   ||..|    ||| ||||     || ||||     ||.||.||
+57127690-5726   2247 TGAGTACACTGTACTTGTAC-AGAT-----GCTTGTG-----AGCCATCA   2285
+
+156400281-156   1660 T-TGGCTTTTTATCTCTGGGAGGGAAAT----ACCTAATAATTTCCAGAT   1704
+                     | ||| ||.|||     ||.|..|||.|    ||||         |.|.|
+57127690-5726   2286 TGTGG-TTGTTA-----GGAATTGAACTTGGGACCT---------CTGCT   2320
+
+156400281-156   1705 T-CTTTGGTC-----------------AAGAATAATTTGGGGAAAAGTTA   1736
+                     | ||.|||.|                 ||||.|.|||||     ..||||
+57127690-5726   2321 TGCTCTGGCCCCACTTGCTCCGGCCCAAAGATTTATTTG-----TTGTTA   2365
+
+156400281-156   1737 TGAGAAAATAACAGCTAA-CACATAGTAACTGTGT--------ACC----   1773
+                     |           |.|||| .|||..|||.||||.|        |||    
+57127690-5726   2366 T-----------ATCTAAGTACACTGTAGCTGTCTTCAGGCACACCGGAA   2404
+
+156400281-156   1774 -AGGCT-----ATGTTAAGTACACTACACATGGACTT-----CAACCCCG   1812
+                      |||.|     ||.|      ||.|||..||||  ||     |.|.||.|
+57127690-5726   2405 GAGGGTGTCAGATCT------CATTACTGATGG--TTGTGAGCCATCCTG   2446
+
+156400281-156   1813 TG---------------AGTTAGGA-----------------AG------   1824
+                     ||               |.|.||||                 ||      
+57127690-5726   2447 TGCTTGCTGGGATTTGAACTCAGGACTTTCAGAAGGGCCGCCAGTGCTCT   2496
+
+156400281-156   1825 ------CTGAG---GCTCGTAGAGGCAAGATTGGAACACACAATATTA-T   1864
+                           |||||   .||| |..||||.||..||     .||..|.||| |
+57127690-5726   2497 TAACCCCTGAGCCATCTC-TCCAGGCCAGGATG-----TACGTTTTTACT   2540
+
+156400281-156   1865 GTTCAGTGTTGGAGTG---CTTA-GCACTGCCCGTTCAG---CCTA-CAA   1906
+                     |    |.||||| |||   |||| .||||     |||||   .||| ||.
+57127690-5726   2541 G----GGGTTGG-GTGTGTCTTACACACT-----TTCAGATCTCTAGCAC   2580
+
+156400281-156   1907 CAGAATAGGTCACTGTGTATTGAAA--------CTCAAATGCT-------   1941
+                     |||.|..|||..|| ||..|||.||        |.||||||||       
+57127690-5726   2581 CAGGAGTGGTGGCT-TGGTTTGCAATAGTCTTCCACAAATGCTTTCTCCG   2629
+
+156400281-156   1942 GCA----------TGTAGTTTAGGACATTATATAT-----TAAGAATAAT   1976
+                     |||          ||.|       |||.|.|||.|     |||||  ||.
+57127690-5726   2630 GCAGTGACTAACCTGAA-------ACAATGTATCTGAGTCTAAGA--AAC   2670
+
+156400281-156   1977 CGAA-----TGGTGTTAGAGAAAGATCAT----AAAAGGCTACTGAAATA   2017
+                     .|||     |||..||||||||    |||    |||       |..|.||
+57127690-5726   2671 AGAAAGTTTTGGCCTTAGAGAA----CATGTTCAAA-------TTTACTA   2709
+
+156400281-156   2018 AGGTAATGACTTCTCCATTAAGATTCATCTTTAAGGACTTCTTAGTGTGT   2067
+                     ||         ||| |||  |||  ||     ||            .|.|
+57127690-5726   2710 AG---------TCT-CAT--AGA--CA-----AA------------ATAT   2728
+
+156400281-156   2068 GGGTAAAGAGCAAA---ATCTGAAGACAAATACAGA--------------   2100
+                     ||||||.| |.|.|   ||.||.|.|||.|.|||.|              
+57127690-5726   2729 GGGTAATG-GTATATGTATATGTACACACACACACACACACACACACACA   2777
+
+156400281-156   2101 -------------------AT---TATAAAGACATA-AAAGATATGAAGG   2127
+                                        ||   ||||.|.|||.| |.|.||||     
+57127690-5726   2778 CACACACACACACACACATATACGTATACACACACACACATATAT-----   2822
+
+156400281-156   2128 GATTAGGGAATTAGGGAATCA-GACTACAATC-CTA--AATAACCTGTGG   2173
+                              ||      |.|| |.|||||||| |||  ||||   |||..
+57127690-5726   2823 ---------AT------ACCAGGTCTACAATCACTAGTAATA---TGTCC   2854
+
+156400281-156   2174 AAGA-ACAAGGTCAACTC---ATTTTA-----CTTCTTCTAACTTTAGTT   2214
+                     .||| .||||  .|||||   ||.|||     ||||.|||.|       |
+57127690-5726   2855 TAGAGGCAAG--AAACTCTAAATGTTAGTGTCCTTCCTCTTA-------T   2895
+
+156400281-156   2215 TATTCTTTAAAAT--GAAAGAAATGGGGGAG-AAATGGGGTTTT----AA   2257
+                     |.||||||...||  ||||          || |||     ||||    ||
+57127690-5726   2896 TTTTCTTTTGCATTGGAAA----------AGCAAA-----TTTTGGGAAA   2930
+
+156400281-156   2258 AATCCCATTCTGAAGTGATGTACCTTTCCAG--AGGTGCTTCAGGGCCAT   2305
+                     ||  .|||.|.|               |.||  |||||.||.|||   .|
+57127690-5726   2931 AA--GCATACAG---------------CTAGACAGGTGATTTAGG---TT   2960
+
+156400281-156   2306 TGGCTGGTAAGGCCTCACTTTCATGGTGGGGACTACAGGTGTGCACCACC   2355
+                     |||       ||..|...|||..|..|           ||.|        
+57127690-5726   2961 TGG-------GGTTTTTTTTTTTTTTT-----------GTTT--------   2984
+
+156400281-156   2356 ATGCATGGCTAATTTTATTTATTTATTTATTTG--TTTGTTTCTTTATTT   2403
+                      ||..|.|.|  ||.|.|||.|||.|.|.||||  ||||||| |||.|||
+57127690-5726   2985 -TGTTTTGTT--TTGTTTTTGTTTTTGTTTTTGTTTTTGTTT-TTTTTTT   3030
+
+156400281-156   2404 ATTTATTGG-----AGAGA-AGAGAGAGGTGTCTCGCTATGT-TAGC-CA   2445
+                     .|||.||||     .|||| ||     |||.||||    ||| |||| |.
+57127690-5726   3031 TTTTTTTGGTTTTTCGAGACAG-----GGTTTCTC----TGTATAGCTCT   3071
+
+156400281-156   2446 GGCTGGCTTCAAAGTCTTGAGCTCAAGCAATCCTCCCTG-CTCTGTCTCC   2494
+                     |||||.|        ||.||.||| ||.||||| .|||| |||||.||||
+57127690-5726   3072 GGCTGTC--------CTGGAACTC-AGAAATCC-ACCTGCCTCTGCCTCC   3111
+
+156400281-156   2495 CAAAGTGTTGGGATTACAGGGGTGAGCCACTGTGCCTGGCCCCTGAGATT   2544
+                     | .|||..||||||||||        ||||   |||.||   |.|.||||
+57127690-5726   3112 C-GAGTACTGGGATTACA--------CCAC---GCCCGG---CAGTGATT   3146
+
+156400281-156   2545 CTTAAATATTGTTTTTAATTTTGAATCCTAACTTCA--------GAAATC   2586
+                             |.|||||||  |.||          |||        |||..|
+57127690-5726   3147 --------TAGTTTTTA--TATG----------TCATGCCAGAGGAAGGC   3176
+
+156400281-156   2587 TAAAGA---ATCTTAGATTATTTAGTTCAGGG---------------CTT   2618
+                       ||||   |.||..|.||| ||||...||||               .||
+57127690-5726   3177 --AAGAGGCAGCTGTGGTTA-TTAGAAGAGGGAACAATTTCCAGACCATT   3223
+
+156400281-156   2619 CTCAAAGTT------TTTATTTTGAACGTGTAACCTAACAAACAAAGGCA   2662
+                     .||.||.||      ||.|||||     ||.|||                
+57127690-5726   3224 ATCTAATTTCTTTTCTTCATTTT-----TGGAAC----------------   3252
+
+156400281-156   2663 AATAAATAGGGA-GTTT----AAAAATGA-----GCTGGTGGAACTGAGG   2702
+                          ||.|.|| ||||    |||..|||     .|||.|          
+57127690-5726   3253 -----ATGGTGATGTTTTCTGAAACTTGATTCATTCTGCT----------   3287
+
+156400281-156   2703 GAGCAGGGCAATAAAAATGAGGCCT---CACC--AGCCAATGGTGATGCT   2747
+                             ||||         ||||   |.||  ||.|.|       |||
+57127690-5726   3288 --------CAAT---------GCCTGGACTCCGAAGGCTA-------GCT   3313
+
+156400281-156   2748 CAAGTG--GAAGGCCTGAGGTCAAAGCTGCAGAGAGC-CAAGATCGTGCC   2794
+                     ||||||  |||         .||.| |||||||.||| |..|| |.||.|
+57127690-5726   3314 CAAGTGCAGAA---------ACATA-CTGCAGAAAGCACTGGA-CATGGC   3352
+
+156400281-156   2795 AC---TGC--------ACT------------------CCAG-CCTGGGC-   2813
+                     ||   |||        |||                  .||| |.||.|| 
+57127690-5726   3353 ACAAATGCTACATTTGACTTTTTGAAAGATGTTTTACACAGTCGTGTGCA   3402
+
+156400281-156   2814 ----GACAAAGTGAGCCCCTGTCTCAAAAA--AAAAAAAAAA--AAAAAT   2855
+                         .|||.|||             ||.||  ||.|.|.|||  ||||||
+57127690-5726   3403 CCATTACACAGT-------------AATAAGTAATAGATAAAGGAAAAAT   3439
+
+156400281-156   2856 ---------CTCAGAACACAAGGAAAAAAGTC--------TTA-TG---T   2884
+                              ||.|||.||     |.|.|.|.|        ||| ||   |
+57127690-5726   3440 CACTGTTAGCTTAGATCA-----ATATATGGCGTGTTTGTTTAGTGAAAT   3484
+
+156400281-156   2885 AAAACATTACTAGTGG-CCTACCTAAAGGCCTTTTTATT-------TATT   2926
+                     |||||||.|.|..||| .|.||.|||...|..|||.|||       |||.
+57127690-5726   3485 AAAACATGAATTTTGGTGCGACATAACATCACTTTAATTGACTACATATG   3534
+
+156400281-156   2927 TATTTTTTCTTGCTAAAAGTCCATTCTAGTTTACCTAGCCCAAGGAACAA   2976
+                     ||         |||   .|||    ||||||      ||     |.|.|.
+57127690-5726   3535 TA---------GCT---GGTC----CTAGTT------GC-----GTAGAG   3557
+
+156400281-156   2977 ATGTGGTGCCCTAAGCCAATTATCTCATTTTTCGT-TCCAAATTGATCTG   3025
+                     |.||||      |||||    ||||.|.|||  || |.||     .||||
+57127690-5726   3558 AGGTGG------AAGCC----ATCTTAGTTT--GTATACA-----TTCTG   3590
+
+156400281-156   3026 AGGTGTGCTTTTCACTGAAT-----CCCTGCCAATGAGGGCAAGAATAGT   3070
+                     .|.||    ||||.|.||||     .||..|.||||           |||
+57127690-5726   3591 TGATG----TTTCTCAGAATGAGAGACCACCTAATG-----------AGT   3625
+
+156400281-156   3071 CAGCTAGGAGTTTCTGGGAAAGATGATACGGAAGATCTCTCTTACCCTTT   3120
+                     ||        |||||             |.||||       |||   |||
+57127690-5726   3626 CA--------TTTCT-------------CAGAAG-------TTA---TTT   3644
+
+156400281-156   3121 CT--CCTT---GTATGA--------GGGTGTAATGCTTGG-----AGCTG   3152
+                     ||  ||||   | ||||        ||.||.|.|..||||     ||.||
+57127690-5726   3645 CTGACCTTACAG-ATGACTGTTGCTGGCTGAACTTGTTGGGAACAAGTTG   3693
+
+156400281-156   3153 CCCCAACCATCCTATGACTTGAAGGAAGACAGAGGGTGAT-CCAGCAGGA   3201
+                                  |||  ||||||  ||||         | ||| |.|..
+57127690-5726   3694 -------------ATG--TTGAAG--AGAC---------TACCA-CTGAC   3716
+
+156400281-156   3202 AAA---TAGAAAAAGGCTCTACACCATCCTGACATTTT--------TTA-   3239
+                     |||   ||.|||||        |..|||.|  ||||||        .|| 
+57127690-5726   3717 AAAGACTAAAAAAA--------AAAATCAT--CATTTTAGGAGTCCATAT   3756
+
+156400281-156   3240 ---TGCAGACTTTTGGT-TAGG--------TAAATTAAAGAACT-CTATT   3276
+                        |.||||||||.|.| ||||        .||.|.|.||||.| ||..|
+57127690-5726   3757 CGGTCCAGACTTTGGCTCTAGGCTAGTCTTGAAGTCATAGAAATCCTCCT   3806
+
+156400281-156   3277 G---------TTTAAGTACGTTTGAGTTGAGGATTTTGTTACATGTAGCC   3317
+                     |         ||.||.|||         .||||||               
+57127690-5726   3807 GCCTCAGCCTTTCAAATAC---------CAGGATT---------------   3832
+
+156400281-156   3318 AAAAGCATTCAAAGGGTGTG-TGTGT-GTG-TGTGTGT----GTGTGC--   3358
+                     |.|||||         |||| |||.| .|| |.|||.|    ||..||  
+57127690-5726   3833 ATAAGCA---------TGTGCTGTATCATGCTTTGTTTTGAAGTAGGCTT   3873
+
+156400281-156   3359 -----GCCTGC--ATGCATGTGCATCCAGCAGTCCACCCAACTCCTTCTG   3401
+                          ||||||  |.||||.||.||    .|.|||||             
+57127690-5726   3874 TAAATGCCTGCGAAAGCATCTGGAT----AATTCCAC-------------   3906
+
+156400281-156   3402 GTACAAGAAACCTTCTGTTCTATAGATAATCAATACTTTGAGA-------   3444
+                      ||||            ||.|||          ||.|||||||       
+57127690-5726   3907 -TACA------------TTTTAT----------TATTTTGAGAGAAGAAG   3933
+
+156400281-156   3445 --------------TTTGTGTTAGGTTAACTTGCCTCTTTTTCTGTATTT   3480
+                                   |||||..||||   |...|.|.||.||.|||     
+57127690-5726   3934 AAAAAATACAAGTGTTTGTTATAGG---AAGAGGCGCTGTTACTG-----   3975
+
+156400281-156   3481 CTCT--GTCACAATAGCAGGTGTGTAAAACAGGTCTCGTCAAATATTTTC   3528
+                     ||||  ||| ..||||.|.|||              |.|||     ||..
+57127690-5726   3976 CTCTGGGTC-GTATAGGATGTG--------------CTTCA-----TTGT   4005
+
+156400281-156   3529 CCTTGGCACT-----GCACTTTC-TTAGA-----------GATGG-----   3556
+                     .|||   |||     || |||.| ||.||           |||||     
+57127690-5726   4006 GCTT---ACTGTGCCGC-CTTGCTTTTGAATTGTTGGCATGATGGATAAA   4051
+
+156400281-156   3557 ----GTAT---------GTGACTAAA-------TCTG-GGACAATGAAAA   3585
+                         ||||         ||||.||.|       |||| |.|.||.|||||
+57127690-5726   4052 ATAAGTATGATTGACAGGTGATTACATTCAGCTTCTGTGAAGAAAGAAAA   4101
+
+156400281-156   3586 GTCCTTGCC------GAAACTCTCTTGCAGAAGTTTTA-AGTAAAAACTG   3628
+                     |    .|||      |||| |.|||..| ||  .|||| .|||.|.|||.
+57127690-5726   4102 G----AGCCAAGGTGGAAA-TGTCTAAC-GA--CTTTAGGGTAGACACTT   4143
+
+156400281-156   3629 TCTTTTTGCTGGGTTGTTCAAACAGGTTGAGTGTATAGTTTGGGTTGTCC   3678
+                     |||                              ||||||.|         
+57127690-5726   4144 TCT------------------------------TATAGTCT---------   4154
+
+156400281-156   3679 AGAAGAAAGAGACAAACATATTCCTAATATGATATTGAGCCACTAGAAGC   3728
+                            |.||.||.|.||||..||.|         |||           
+57127690-5726   4155 -------AAAGCCAGAGATATATCTCA---------GAG-----------   4177
+
+156400281-156   3729 AGCCATGCCCGACTAGAAAAAATTCTGGATTTTGTG-TTTATATGAGTCA   3777
+                          |.|||.|..|||||.||..|..||..|..|| |.||||| || ||
+57127690-5726   4178 -----TCCCCAAAGAGAAAGAAAGCAAGAGCTGCTGATATATAT-AG-CA   4220
+
+156400281-156   3778 --GTAAATTGCCCTTAAACAATAAGTGGTGGGCTAAGTGTAGTAACTCAC   3825
+                       |||.|.||          |||..||                       
+57127690-5726   4221 GGGTATAGTG----------ATACTTG-----------------------   4237
+
+156400281-156   3826 ACCAGTAATCCTAGCACTTTGAGAGGCCGAGACAGAAGGA--TCAA----   3869
+                      ||..|||||||||.||||         |||||   ||||  ||||    
+57127690-5726   4238 -CCTTTAATCCTAGGACTT---------GAGAC---AGGAACTCAATATA   4274
+
+156400281-156   3870 -----CTG--AGGCCAGGAGTTTGACACCAGCCTGGGCAACATAGTGAGA   3912
+                          |||  .||||       |||.||.|      ||||.||    |||
+57127690-5726   4275 TAGCTCTGGATGGCC-------TGAAACTA------GCAATAT----AGA   4307
+
+156400281-156   3913 CC----TTGTCTCTACAAAAAATAAAAATTAAAAAT-TAAAAAAAAATTA   3957
+                     ||    |.|||           ||.||.|.|.|.|| ||..|      .|
+57127690-5726   4308 CCAGGTTGGTC-----------TAGAACTCAGAGATCTATCA------CA   4340
+
+156400281-156   3958 CCCAGGTGTGGTGGTACACACCTGTAGTTCCAGCTA--------------   3993
+                     |||||               ||| ||  ||.|.|||              
+57127690-5726   4341 CCCAG---------------CCT-TA--TCTATCTATATATATACACTTC   4372
+
+156400281-156   3994 --CTTGGGAGACTAAGGTTGGAGGGTTGC--TTGAGCCTGGGAGTTTGAG   4039
+                       |||                    ||.|  ||.|     |.|.|||||.
+57127690-5726   4373 CCCTT--------------------TTTCTGTTAA-----GAATTTTGAT   4397
+
+156400281-156   4040 GCTGGCTGCAGTGAGCTATACTGTGCCACTGCACTCCAGC---CTTTGCA   4086
+                     .||..|..|| |.||.|||.||.||    ||||....|||   .||||.|
+57127690-5726   4398 TCTTCCAACA-TCAGATATGCTTTG----TGCAGCAAAGCGTGATTTGTA   4442
+
+156400281-156   4087 A----------------CAGAGCAAGACCATGTCTCTAAAA---AACATA   4117
+                     |                |.|.||.||..|||     |||||   ||.|.|
+57127690-5726   4443 ATTTTTATTGGTGAAGCCTGGGCTAGCTCAT-----TAAAATTGAAGAGA   4487
+
+156400281-156   4118 CAACAACAACAAAATTAGCCTTTAAA-----------CTTAGTTTGAGCA   4156
+                               |.|||||||...||||           ||||.||  |.|.
+57127690-5726   4488 ----------AGAATTAGCTAGTAAATTTTAGCTCTTCTTAATT--AACC   4525
+
+156400281-156   4157 G------TATTTTG----CTAGAATCTTAACACAAATTGAGAAA------   4190
+                     |      |||||||    .|||.|.||...|||  |.|||.|||      
+57127690-5726   4526 GTTTATTTATTTTGAATAATAGGAGCTGGGCAC--AGTGAAAAACCACAT   4573
+
+156400281-156   4191 -------CAGTTTT--------ACC--CCAAACATGGTAAACTTAGATAA   4223
+                            |||||.|        |||  ||.|||     ||||||| |.||
+57127690-5726   4574 ATAAGGTCAGTTCTCGAGACCAACCCTCCTAAC-----AAACTTA-AGAA   4617
+
+156400281-156   4224 ---------------CTCATTACCCAGGA--------------TGTGATA   4244
+                                    ||| |.||||.|||              ||.||| 
+57127690-5726   4618 GTGCCTGTTCTCTGTCTC-TGACCCTGGAAGGTCTCAGTTTCTTGGGAT-   4665
+
+156400281-156   4245 TAGACTAATAATATTAAAGTTTAAGAAAAGTTTAGGCCA--------AGT   4286
+                                  ||...|.||.||.|.|.|||.|..||        |.|
+57127690-5726   4666 -------------TTCTGGGTTGAGCATACTTTTGTACATTCATGAGATT   4702
+
+156400281-156   4287 G---------TGGT-----GCCTCACCCCT---ATAATCCCAGCACTTTG   4319
+                     |         ||||     ||.|     ||   ||||   .|||    ||
+57127690-5726   4703 GCTGATGGGTTGGTAGATAGCTT-----CTGGGATAA---GAGC----TG   4740
+
+156400281-156   4320 GGAGGCCGAGG----------------TGAGTGGA---------------   4338
+                     .|.|.||||||                .||||.||               
+57127690-5726   4741 AGTGCCCGAGGCTTTGCTGCTGAAATCAGAGTTGAAACTTCCGCTGCGCC   4790
+
+156400281-156   4339 --TCAC--CTGGG----GTCAGAAGTTCAAGACCAGCCTGGCCAA-TGTG   4379
+                       |.||  |||||    |..|||.|||..||||.|.|.||   || ||||
+57127690-5726   4791 TTTGACTTCTGGGAAGAGAAAGAGGTTAGAGACTATCATG---AACTGTG   4837
+
+156400281-156   4380 ---------TGAAACCCCGTC---------TCTATTAAAAATACCAAAAA   4411
+                              |||..|..||||         .||.|||.|||...|.||| 
+57127690-5726   4838 GTGGTCTGATGATCCTGCGTCCATAATGGAGCTCTTACAAACCTCTAAA-   4886
+
+156400281-156   4412 AAAAAAAAAAAAAAAAAAAGCTGGGCATGGTGGTGCGG-----CTGTAA-   4455
+                                             .||||  |||..||     |||  | 
+57127690-5726   4887 ------------------------TCATG--GGTTTGGAAAACCTG--AG   4908
+
+156400281-156   4456 --TCCCACTATT----------CAGGAGGCTGAGGCAGGAGAATCCCT--   4491
+                       ||..|.||||          .|||||...|||| ||||.|.|||.|  
+57127690-5726   4909 TTTCAGAATATTTGAAGGGTGGGAGGAGAGAGAGG-AGGAAACTCCTTGG   4957
+
+156400281-156   4492 --------------TGAACCCAGGAGGCAG--------------------   4507
+                                   ||||||    |..|||                    
+57127690-5726   4958 CACTGTTTCCTTAGTGAACC----ATACAGTTCTTTATTTCATGTTTACC   5003
+
+156400281-156   4508 -------------AGA-----TTGCGATGAG--CCAAGATTGTGCCATTG   4537
+                                  |.|     |||..|||||  .||..|||||..|.|||
+57127690-5726   5004 TATATTATTTATAATATTTATTTGAAATGAGTCTCACTATTGTATCCTTG   5053
+
+156400281-156   4538 CACTCCA----GCCTAGGGAAC----AGAGTGAGACTCCGTCTCCAAAAA   4579
+                                |||||  ||||    |.||||| .|||.|.||       
+57127690-5726   5054 -------GGTGGCCTA--GAACTTATATAGTGA-TCTCTGGCT-------   5086
+
+156400281-156   4580 AAAAAAAAAGAAACATTTACATTT-AGAGAAATTC--GTCGATGATGATA   4626
+                            ..|||.|.|..||.||| |||||..|.|  |||..||.||..|
+57127690-5726   5087 -------TGGAAGCGTGGACCTTTCAGAGATCTGCCTGTCTCTGCTGGGA   5129
+
+156400281-156   4627 ACACTACAAGG-AGACAACAAAAACCATGAGAAAATTTTTAGGACACATT   4675
+                     .||    |||| |||||||    ||||||                     
+57127690-5726   5130 TCA----AAGGCAGACAAC----ACCATG---------------------   5150
+
+156400281-156   4676 CCCAGCTTGTTGGAATAAGGTAAACTCTGTT--------GC----AAAGA   4713
+                     |||||||||||...||.|..||.|||.|.||        ||    |||||
+57127690-5726   5151 CCCAGCTTGTTTTCATTATTTATACTATCTTTACAATAGGCTTATAAAGA   5200
+
+156400281-156   4714 AGGTTCGGAGCATTTGAAGGAATATTCAGGCAACAGTGTGACAGAGAAGT   4763
+                               |||||                  |..||.|.||||||..|
+57127690-5726   5201 ----------CATTT------------------CCCTGAGTCAGAGATTT   5222
+
+156400281-156   4764 A-GAAAGAGGAGAAACTAAAAATAGAGAAATCCATTCAAGAGGTAGTTAG   4812
+                     | .|.||..| |..|||||              |||.|||.|.|      
+57127690-5726   5223 ATTATAGCCG-GTTACTAA--------------ATTAAAGGGTT------   5251
+
+156400281-156   4813 AATAGGAGTAGAGAGGTGACGAGGTCCTGAACCAAGGCCACAGCTCTAGC   4862
+                                   ||.||                        ||||||.
+57127690-5726   5252 --------------GGGGA------------------------CTCTAGG   5263
+
+156400281-156   4863 AT--GAGGTGCATGGCAAGACAGAAGGAGGAAGAAAAATTACTCTAGGAA   4910
+                     .|  |||||   ||| .||||||..||||||||...|..||..||.||||
+57127690-5726   5264 TTGGGAGGT---TGG-GAGACAGTTGGAGGAAGGGTAGGTAACCTGGGAA   5309
+
+156400281-156   4911 ---------------TCTACCTTACGTGCTTGATAGACTTG---------   4936
+                                    .||..||.|.||||.|       |||         
+57127690-5726   5310 GCCAATTGTATGCCCACTGTCTGAAGTGCCT-------TTGTGTGTGTGT   5352
+
+156400281-156   4937 ----GGGTGTA---------------GTGTAGAAAAGTAA------GGAA   4961
+                         |.|||||               ||||.|..|.||.|      ||||
+57127690-5726   5353 GTGTGTGTGTATGTGTGTGTGTGTGTGTGTGGTCAGGTCAGTTTGTGGAA   5402
+
+156400281-156   4962 ---------------------GAGAAAATACTGGAAGGAAA---GGGGTG   4987
+                                          |.|..|||||.||.||.|||   ||..|.
+57127690-5726   5403 CTAAACTCTTAAATGAGCTTTGTGCTAATACAGGCAGTAAATCTGGATTT   5452
+
+156400281-156   4988 GTG-TAAAGCGCTCATTTTTGGAAATTCTGAC-------TTTGAAGTAAG   5029
+                     |.| ||||      |||.||||  |||||..|       ||||..||...
+57127690-5726   5453 GAGTTAAA------ATTATTGG--ATTCTTTCTTTTTTTTTTGTGGTTTT   5494
+
+156400281-156   5030 TAGGAAGA---GGT---------GCCTG------CTAGG---------TG   5052
+                     |.|  |||   |||         |||||      || ||         ||
+57127690-5726   5495 TCG--AGACAGGGTTTCTCTATAGCCTGGCTGTCCT-GGAACTCACTTTG   5541
+
+156400281-156   5053 GTTAGATCAACC---CCAGG-----AGAAATCAA---------GGCTACA   5085
+                       ||||.||..|   ||.||     |||||||.|         |.|| |.
+57127690-5726   5542 --TAGACCAGGCTGTCCTGGAACTCAGAAATCCACCTGCCTCTGCCT-CC   5588
+
+156400281-156   5086 GAAGT----GGATTTGGAA--GTCAAT---------CACC-------TGA   5113
+                     .||||    |||||   ||  ||  ||         ||||       |.|
+57127690-5726   5589 CAAGTGCTGGGATT---AAAGGT--ATGCGCCACCACACCCGGCAAATTA   5633
+
+156400281-156   5114 TGGG-----TGAAATGCAAAAATGTGGAAATGGAGAATATCACACAGAGA   5158
+                     |.||     |||     ||||||..||.|.|||    |.|||||||    
+57127690-5726   5634 TTGGATTCTTGA-----AAAAATTGGGCAGTGG----TTTCACACA----   5670
+
+156400281-156   5159 AAAGAGTGCTGAGGACGCAGCCTTAGGGAATGACAAGAATTGAGGAGCCA   5208
+                                         ||||   .|||.|||..|.||| ||||.||
+57127690-5726   5671 --------------------CCTT---TAATCACAGCACTTG-GGAGGCA   5696
+
+156400281-156   5209 AAGTTGGAGAAACAGGACAGTGGCATCTGTG-----GAGG-----CAGG-   5247
+                     |||        .|||    |||| ||||.||     .|||     |.|| 
+57127690-5726   5697 AAG--------GCAG----GTGG-ATCTCTGAGTTCAAGGCCAACCTGGT   5733
+
+156400281-156   5248 ---CAGAG------CC-------CCA----------------CT-TCTTT   5264
+                        |||||      ||       |||                || ||   
+57127690-5726   5734 CTACAGAGTAAGTTCCAAGATAGCCAAGGCTACACAGAAAACCTGTC---   5780
+
+156400281-156   5265 TGCTAATTCTGAATAATAAAA-----------------------------   5285
+                            |||.||.|.|||||                             
+57127690-5726   5781 -------TCTAAAAAGTAAAAACTAACCAACCAACCAACTAACCAACCAA   5823
+
+156400281-156   5286 ----------------------------------CATGACA----AACA-   5296
+                                                       ||.||||    |||| 
+57127690-5726   5824 CCAACAAACCAACCAACCAACCAACCAAAAAACCCAAGACACAACAACAG   5873
+
+156400281-156   5297 CATATGTCACAGTGTTTCA-TAGATATACT------------------GT   5327
+                     .|.||.|||.|....|||| |.|.|||.||                  ||
+57127690-5726   5874 AAGATTTCAGAACTCTTCACTTGGTATTCTCGTGGAACTGGAAGAATGGT   5923
+
+156400281-156   5328 GTAGTAATCCTGTTTCACA-------TCGGGAATGCTGT-AGTA----GG   5365
+                     |||..||.||   |.||||       ||.|||.||.||| |.||    |.
+57127690-5726   5924 GTAAAAAACC---TACACATTTGGTGTCAGGAGTGATGTGAATACAAGGA   5970
+
+156400281-156   5366 CAGTGATTTCATTATCCACGTG----ATCA-AGCTTGAAGAGA-------   5403
+                     |||||  ||| ||.||||..||    |.|| ||.||    |||       
+57127690-5726   5971 CAGTG--TTC-TTGTCCATCTGTAGTAACACAGTTT----AGAACATCTT   6013
+
+156400281-156   5404 --------TCAGAGGA----TGA---------------CCAACAGTG---   5423
+                             |||| |||    |||               .|||||.||   
+57127690-5726   6014 TTAGTTATTCAG-GGAAACTTGAATACTAATGTAGTTCTCAACACTGAGA   6062
+
+156400281-156   5424 ---CCT-----TCTGGGTGGTGCACA-------CTAACACTTCCCCTGG-   5457
+                        .||     |||||||     |||       |.|..||||....||| 
+57127690-5726   6063 TACTCTAATAGTCTGGGT-----ACATCCTGGGCAATGACTTTAGATGGG   6107
+
+156400281-156   5458 --TCTGCTCTG------------------TTCCCATGCTCAGATAAGAAG   5487
+                       |||..||||                  |.||||||  .|.|||.|   
+57127690-5726   6108 ATTCTTTTCTGGGGACCCTTATCTTTGACTGCCCATG--TATATATG---   6152
+
+156400281-156   5488 CTCCCATTG-------------AAGCTGGTAGAGAGAAGGAAAGCACTTG   5524
+                          ||||             || .||||||      ||||||     |
+57127690-5726   6153 -----ATTGTATGACTGGTTTTAA-TTGGTAG------GGAAAG-----G   6185
+
+156400281-156   5525 AGCACTGTGAAGTGTTACACAATC---TTCTCT----TTTAGGCAAGC--   5565
+                     ||..||...||.|||.|||.||.|   ||.|.|    ||||.|.||||  
+57127690-5726   6186 AGACCTCAAAACTGTAACAGAAGCCAGTTGTATAAGATTTATGGAAGCTG   6235
+
+156400281-156   5566 ----------------------CTG----GCCATTGTGACACCCAGTGCG   5589
+                                           |||    |.|.||||||    ||||| |
+57127690-5726   6236 ATGCTGTCAGACAAGAGTGAGTCTGATGAGGCTTTGTGA----CAGTG-G   6280
+
+156400281-156   5590 ACAGGCAG------GGGTTGTAAGTTGCATCATAGCACCTTGGAGCACT-   5632
+                     |.||..||      |..||.|||...|.|||||  ..|||||    |.| 
+57127690-5726   6281 AGAGAAAGACCTGTGATTTATAACGGGAATCAT--TCCCTTG----AGTG   6324
+
+156400281-156   5633 ----TGCTCAAGGTACCAAGTTCCTAGCTGGTGTTAGCTCATCATAGAAA   5678
+                         |||   ||||    .|||.||||  ||||                |
+57127690-5726   6325 TGTGTGC---AGGT----GGTTGCTAG--GGTG----------------A   6349
+
+156400281-156   5679 AGTGGCCAGGCTTATATCATCTGAAGAAAGTAAACAGTTCAGAAACAGAA   5728
+                     .||||.|                             |||           
+57127690-5726   6350 TGTGGGC-----------------------------GTT-----------   6359
+
+156400281-156   5729 ATAGTTCATATAATACAAAGTCACCAAAGCAATGCCTTTTTTTTTTTTTT   5778
+                         |||.|.|                        |||||||||.|||||
+57127690-5726   6360 ----TTCTTTT------------------------CTTTTTTTTCTTTTT   6381
+
+156400281-156   5779 CACCTGTGAGTGATCGTATTGATTTAATACACACAGCTTATTTCTGTCCC   5828
+                                           |||         ||| |..||||||.||
+57127690-5726   6382 ----------------------TTT---------AGC-TGCTTCTGTACC   6399
+
+156400281-156   5829 ----AGGTTACAAACTAGCCCTAGGGAAACGGTGGAGC-CAGT-------   5866
+                         |||               |||||||  ||.|.|| ||.|       
+57127690-5726   6400 TGTGAGG---------------AGGGAAA--GTTGTGCTCAATGTAAAGA   6432
+
+156400281-156   5867 ----------CATTTGGATTGCCCTTTACTGGCTGGGAATTAA-ATCAT-   5904
+                               |||||||                      |||| ||.|| 
+57127690-5726   6433 GCTCCGGAAACATTTGG----------------------TTAAGATAATG   6460
+
+156400281-156   5905 TACTTATTCCATTTTA-GAATCACAAGTAGTACCCTAAGGCCTAC-----   5948
+                     |.||      |||.|| |  ||   ||||..||||.|.||.||.|     
+57127690-5726   6461 TGCT------ATTGTATG--TC---AGTATAACCCAATGGGCTTCTGAAT   6499
+
+156400281-156   5949 ---TTTCCTAAGGATTAAAATCAAGGCATGGAAGTGAAGAATCCAGGTGT   5995
+                        ||||..|.|||..|||| |||.|       ||..|||||.|.|    
+57127690-5726   6500 GTATTTCAAAGGGACGAAAA-CAATG-------GTTTAGAATACTG----   6537
+
+156400281-156   5996 AATTCTCAGATGCATGCAGATGTTGAGAATGCAGCAATTTTTCCTGGAAA   6045
+                     |.|||||||           ||.|            ..|||||       
+57127690-5726   6538 AGTTCTCAG-----------TGGT------------CCTTTTC-------   6557
+
+156400281-156   6046 GCTGTC-ACTGCA-----AAATCATCCTGCTCACGATATG-CTCATTCCT   6088
+                      ||.|| ||||.|     |||..||         |.|.|| |.||||   
+57127690-5726   6558 -CTTTCAACTGAATAAGTAAAGGAT---------GTTGTGTCGCATT---   6594
+
+156400281-156   6089 AGTTCTCAAG-CATATCCAATTAG------TCAACAAG--CCTGATTTCT   6129
+                      ||..||||| ||.|       ||      |.|.||||  ||||.||.||
+57127690-5726   6595 -GTAATCAAGCCAGA-------AGTGCCTTTGATCAAGCTCCTGTTTGCT   6636
+
+156400281-156   6130 CCTTTTAAAATGGCACTGACTCTTATTCTCC-CTCCT----CATGCCAA-   6173
+                     ||          ||.||..||....|||||| .|.||    |||  ||| 
+57127690-5726   6637 CC----------GCCCTTCCTGGGGTTCTCCTGTTCTGTGGCAT--CAAG   6674
+
+156400281-156   6174 TCTCTCCTACACAGTGCAGACAATTATC----AGCTCACTCCCTGGGCTA   6219
+                     |||                  |.||.||    ||.|||      ||||  
+57127690-5726   6675 TCT------------------ATTTGTCTTGGAGTTCA------GGGC--   6698
+
+156400281-156   6220 CCCAGGAAACCT-CAGATTTCCTCTGCCATCCTGCATGCTGCTACCAATT   6268
+                             |||| |||.|||.|       |.|||.||.||          
+57127690-5726   6699 --------ACCTCCAGTTTTGC-------TTCTGGATTCT----------   6723
+
+156400281-156   6269 GCATTTTTTCCTTTCCCTCCCCTACTTCTCTCTCTCCCTCCTTTTCTTTC   6318
+                                              ||||.|||   |.||...||||.||
+57127690-5726   6724 -------------------------TTCTTTCT---CATCGGGTTCTGTC   6745
+
+156400281-156   6319 TTCCTTCCTTAATTTTGGAAAATTCAGTCATTTCTTTATTCCAAAATTGA   6368
+                     |          |..||||       |||               ||.|.||
+57127690-5726   6746 T----------AGGTTGG-------AGT---------------AAGTAGA   6763
+
+156400281-156   6369 ATTAATTTTAAATCCATACAGAGTCCTCATGGTGGAGGAAATGTGAGTGG   6418
+                     |||  .||||||.|.|        |.||                      
+57127690-5726   6764 ATT--CTTTAAACCTA--------CTTC----------------------   6781
+
+156400281-156   6419 GAATTCTTTACCTTTCTCTTGACTCTCA--------TCT-CTGGGTGAAG   6459
+                      ||||||.||.||..||||||..|.|||        ||| |||       
+57127690-5726   6782 -AATTCTATAGCTGCCTCTTGCTTGTCAGTCAGTGCTCTCCTG-------   6823
+
+156400281-156   6460 CATTTATTCAACTACTTCAGA--GCTGTGCCGCTTGGCA-GAAATAGCTT   6506
+                       |||       |||||..||  |.|      ||||||| |    |||||
+57127690-5726   6824 --TTT-------TACTTTTGAAGGTT------CTTGGCACG----AGCTT   6854
+
+156400281-156   6507 TCACTTCCCTTCCTAAAGCTCTTTCTTCTTCTTCTTCCC-----------   6545
+                     .||.|   ||..|.||   ||||||     ||.||||||           
+57127690-5726   6855 CCAAT---CTCACGAA---TCTTTC-----CTCCTTCCCTCTCATAGTGA   6893
+
+156400281-156   6546 -AAG-------TTATTTGGGTCTTTTAAAAT---------ATATGTTTTT   6578
+                      |||       ||||||...||.||||||||         ||.|..||||
+57127690-5726   6894 GAAGTGTTGCTTTATTTCTTTCATTTAAAATTAAATTAAAATTTTATTTT   6943
+
+156400281-156   6579 TTCATAAGAAACCCACATGTATGGTGCAAAATTCAAAAGGTATGAGAGAG   6628
+                     |..|||.|       .|||||||             ||.||||  ||..|
+57127690-5726   6944 TGTATATG-------TATGTATG-------------AATGTAT--GATTG   6971
+
+156400281-156   6629 TATTCAT---------------TGAAAAGTATGCCTA-GCCTG---GCAC   6659
+                     |||.|||               ||.||.|||||  || |..||   |.| 
+57127690-5726   6972 TATGCATGCATGTACTTATTTATGTAATGTATG--TATGTATGTATGTA-   7018
+
+156400281-156   6660 AGTGGCTCAGCCTGTA-ATCCCAGCA---CTTTGGGAGGCCAAGA-----   6700
+                       |||       |||| ||    |.|   .|.||.|.||  .|||     
+57127690-5726   7019 --TGG-------TGTATAT----GTATGTGTGTGTGTGG--TAGAAACTA   7053
+
+156400281-156   6701 -------CGGGCAGATCACCTGAGGT---CACGAGTTTGAGACCAGCCTT   6740
+                            |.||       ||||||||   |||          ||.|||||
+57127690-5726   7054 TTTAATTCTGG-------CCTGAGGTTTCCAC----------CCTGCCTT   7086
+
+156400281-156   6741 GCT-AACAT---GGTGAAACCCCGTCTCTACTAAA-------------AA   6773
+                       | |.|||   |.|    |||||      .||||             ||
+57127690-5726   7087 --TGACCATTTAGTT----CCCCG------ATAAAAGACACATACCATAA   7124
+
+156400281-156   6774 ATACAAA---------------AATTAGCC------------AG-GCATG   6795
+                     |||.|||               |||.||||            || |||.|
+57127690-5726   7125 ATATAAATAGTTTTATAATTATAATAAGCCGTCAATAGCACAAGAGCAAG   7174
+
+156400281-156   6796 GTGGCTCAT---------GCCTGTAATCCCAGCTACTCGGAAG-GC----   6831
+                       .||||.|         |||| |..|.|||||  ||| .||| ||    
+57127690-5726   7175 --TGCTCTTAACTGCTGAGCCT-TCTTTCCAGC--CTC-CAAGTGCCTAG   7218
+
+156400281-156   6832 -----TGAGGCAGGAGAATCTC-TTGAACCCA----------GGAGGTGG   6865
+                          |.|||.|.|||||.||| .|||  |||          .|||||||
+57127690-5726   7219 AATTTTAAGGGAAGAGAAACTCGGTGA--CCATTTATGTAGGTGAGGTGG   7266
+
+156400281-156   6866 AGGTTG---CAGTGAGCTGAGATCGCACCACTGCACTCCAGCCTCAGCAA   6912
+                     |.|.||   ||| |||..|||.|  ||...|||          .||| ||
+57127690-5726   7267 AAGATGATCCAG-GAGAAGAGGT--CAAAGCTG----------ACAG-AA   7302
+
+156400281-156   6913 CAGAT--------------CCCAGG-------TTTCCTTT--------CC   6933
+                     .||||              ||.|||       |||.||||        ||
+57127690-5726   7303 GAGATGAGGTCAAAATTGACCAAGGAGAAGCTTTTACTTTCGAGCGAGCC   7352
+
+156400281-156   6934 T--------AGA-----GGAAAC--CATTGT---------TATCAGTG--   6957
+                     |        |||     ||.|.|  ||.|.|         || |||||  
+57127690-5726   7353 TGAGGTTGCAGAAGTGGGGCATCGGCACTCTCCTCCTCTCTA-CAGTGAG   7401
+
+156400281-156   6958 -----------TCCTGTATTT----CCCTTCACAAATATTTCTATGTGGA   6992
+                                ||..|.||||    ||   ||||.|              
+57127690-5726   7402 GTAGCTAGGCTTCAGGGATTTGAAGCC---CACAGA--------------   7434
+
+156400281-156   6993 TATAAACATTGCAACTT--TTATTAAAAAAATTTTTTTAATCTCTTTTTT   7040
+                        |||||   |||..|  ||||||                |||||    
+57127690-5726   7435 ---AAACA---CAAAGTGCTTATTA----------------CTCTT----   7458
+
+156400281-156   7041 GAGAGACATGCAATTTATTTTTAAG-CACAAATGGTACATACTATACATA   7089
+                         |.|.||   |.|.|.|..||| |.|   ||||              
+57127690-5726   7459 ----GGCCTG---TCTCTGTGGAAGCCGC---TGGT--------------   7484
+
+156400281-156   7090 CTGTTATGCTCAT--ATCCTTTT--CTCC---CCCCAGAAATATATATCT   7132
+                     ||    |||||||  .||..|||  ||||   |||          ||.|.
+57127690-5726   7485 CT----TGCTCATGGTTCTGTTTACCTCCAGGCCC----------TAGCC   7520
+
+156400281-156   7133 TGGAAAATTATCCTTCTTAGAACACAT----AGAGCTAACTTTATCTTTT   7178
+                     |  ||.||| ||| |||||...|.|||    ||||         ||||| 
+57127690-5726   7521 T--AACATT-TCC-TCTTACTGCCCATTTGGAGAG---------TCTTT-   7556
+
+156400281-156   7179 TAGTGGCTCTATGTTCATTTTTTAAACTGTCTTTTATGGACTAGGAATT-   7227
+                           |||||                  .||||..|||| |.||.||| 
+57127690-5726   7557 ------CTCTA------------------GCTTTCCTGGA-TGGGGATTT   7581
+
+156400281-156   7228 -----------AAAACATTATTTTTTCTATCTCACAATAATAAGCAGTAC   7266
+                                |||.|..|||...||..|.|||.|.|||        ||.
+57127690-5726   7582 TCTTGCCGGGGAAAGCTGTATGCCTTACACCTCCCTATA--------TAT   7623
+
+156400281-156   7267 CC-----CA---AGGCCAAGTTTCCTAAGGATTAGAATCAA--AGCATGG   7306
+                     ||     ||   |.|||.|.||||            |.|||  |.|||| 
+57127690-5726   7624 CCGTGCTCATATAAGCCCATTTTC------------ACCAACCACCATG-   7660
+
+156400281-156   7307 AAATAAAGAACCTAGCTGTAA---TTGTAAGATG----CATGAAGACAGT   7349
+                           |||.|||..|| .||   |.|      |    |||.||      
+57127690-5726   7661 ------AGACCCTTCCT-CAACCCTCG------GCCCCCATTAA------   7691
+
+156400281-156   7350 GAGGTACCATAATTACCTGAGCCAGTTCTTTGGCAGAGGAC-----ATTT   7394
+                     |||||       ||           ||.||.||||    ||     .|||
+57127690-5726   7692 GAGGT-------TT-----------TTATTGGGCA----ACTGCTGGTTT   7719
+
+156400281-156   7395 --AG--ACTG------------TTTCTAATCTTTTGCTAGTAGGAACAAT   7428
+                       ||  ||||            |.|||.||.|||  ||  |||     ||
+57127690-5726   7720 CCAGGCACTGTGCTGAGCTCCCTCTCTCATGTTT--CT--TAG-----AT   7760
+
+156400281-156   7429 GCTACAGTGAATGCCTTGAATGAATGCCATTTTGTTCATGTATGAGAACA   7478
+                      |..|||.||||.|          |||           ||||||||    
+57127690-5726   7761 -CAGCAGGGAATCC----------TGC-----------TGTATGAG----   7784
+
+156400281-156   7479 CCTGCAGGATAAATTCCTGGG-----AGAAAAATT--GCTAAATCCAAGG   7521
+                           ||||.|.|     ||     |||.|||||  ||||   ||    
+57127690-5726   7785 ------GGATCAGT-----GGAGATCAGAGAAATTCAGCTA---CC----   7816
+
+156400281-156   7522 GTGAGTACATTTTAAATATTGCAAAATTACTCTCCAAAAATGTCTATT--   7569
+                            ||||          ||||       .|||.|.| |||| ||  
+57127690-5726   7817 -------CATT----------CAAA-------GCCACACA-GTCT-TTGG   7840
+
+156400281-156   7570 TTT--------CTT-----AATCATTG------CAT-------TTATTAT   7593
+                     |||        |||     ||||.|||      .||       |.|||.|
+57127690-5726   7841 TTTGGTAGAGACTTCTGGAAATCCTTGTGAAAAAATGAAGAGATAATTCT   7890
+
+156400281-156   7594 ATTACTCTTTTGCTCCCAAATGTTAGTGAATCCTTGCACTTATTTAATCC   7643
+                     |.|  ||||.||||               |.|||  |||        .||
+57127690-5726   7891 ACT--TCTTCTGCT---------------AGCCT--CAC--------CCC   7913
+
+156400281-156   7644 TC-TGCTGTCTCCATGCTGTAATTTTTTTTT-----TTTTTTTTTTTTTT   7687
+                     || |.|   |.||||..|..|||||||.|||     |||||..|||.|..
+57127690-5726   7914 TCATCC---CCCCATTTTAAAATTTTTATTTAATTATTTTTACTTTCTGC   7960
+
+156400281-156   7688 TTTTTGAGACAGGGTCTTGCTCTGTCACCCAGGCTAGAGTATAGTGGTGC   7737
+                     |||||||||       |.|...|||.|.|||||.|               
+57127690-5726   7961 TTTTTGAGA-------TAGAAATGTGATCCAGGTT---------------   7988
+
+156400281-156   7738 AATCACGGC--TCA-CTGTTGCCTTGAGGTCCCCAGGCTCAGATGATC--   7782
+                           |||  ||| ||||    |||.||  ||||     ||||.|.|  
+57127690-5726   7989 ------GGCCTTCATCTGT----TTGTGG--CCCA-----AGATAAACTT   8021
+
+156400281-156   7783 ----------CTCCCACCTCAGCCTCCCGAGGAGCTGAGACTACAGGCAT   7822
+                               |||....|||.|.||||||| |.|||||||||||||||||
+57127690-5726   8022 GAACTCTTGGCTCTGTTCTCTGTCTCCCGA-GTGCTGAGACTACAGGCAT   8070
+
+156400281-156   7823 GC----GCCA------CCA---CACTGGCTAATTTTTGTATTTTT-----   7854
+                     ||    ||||      |||   |.||  |||             |     
+57127690-5726   8071 GCCTATGCCAGATTCTCCAACCCCCT--CTA-------------TCCCCC   8105
+
+156400281-156   7855 TGTAGA---CATGGGGTTTTGCTATGTTGCCCAGGCGGGTCTTGAACTCC   7901
+                     |||.||   |||.|   |||.||.|            ||.|||||..|  
+57127690-5726   8106 TGTTGACTCCATAG---TTTCCTTT------------GGACTTGACTT--   8138
+
+156400281-156   7902 TGGGCTCCAGTAATCTGCCCACCTTGGCCTCCCAAACTGCTAGGATTATA   7951
+                     |.||..|||||        .||.|||   |..||||||.||.|      |
+57127690-5726   8139 TAGGAACCAGT--------GACATTG---TTACAAACTTCTTG------A   8171
+
+156400281-156   7952 GGCGTTAGACAC-TGAGCCTGGCCAAAAGTAGTGTTCTAAATTACCAAGA   8000
+                     |  |||.||||| ||                    |.||||    |||  
+57127690-5726   8172 G--GTTTGACACATG--------------------TGTAAA----CAA--   8193
+
+156400281-156   8001 TTCTTCTCC-GCATTAATAGTCTGAGAA-------CTTTTTA-TATTGTT   8041
+                            || |||       .||.||||       ||||..| |.||||.
+57127690-5726   8194 -------CCGGCA-------CCTTAGAATCAACTGCTTTCCACTCTTGTG   8229
+
+156400281-156   8042 T---------------TGAAATATGGAAAGTTTGCA-GTTT---AGGAGA   8072
+                     |               |||     |.|.|||   || ||.|   |.||||
+57127690-5726   8230 TCTGGGTGCCTGCCAGTGA-----GCACAGT---CATGTATACCATGAGA   8271
+
+156400281-156   8073 AAATAAAAAAGTTTGATT--AAGCTGAAAACATGTA-GTGCTAAAAGAGG   8119
+                     |.|||..|   ||||.||  ..|||..||.||.|.| .||||        
+57127690-5726   8272 ACATACCA---TTTGTTTGCCTGCTTTAACCAGGAACCTGCT--------   8310
+
+156400281-156   8120 T------CTTG-----------AAAGCATCGCCTGGGAACTGGTT-----   8147
+                     |      ||||           |.|||| |||||         ||     
+57127690-5726   8311 TCTCCCACTTGACTTTCACACCACAGCA-CGCCT---------TTCTCCA   8350
+
+156400281-156   8148 ----------------AGAAATGCTGACTGCAGGCTGGGTGCAGTGGCTC   8181
+                                     |||.|                    ||||..|||
+57127690-5726   8351 TTTCTTTATTGTCCTAAGACA--------------------CAGTCTCTC   8380
+
+156400281-156   8182 TGGCCTGTGATCCCAGCATTTTGGGAGACCGACCTGG-----ATGCATGG   8226
+                     |   ||.|||  |.||  |..||||        ||||     |..|||.|
+57127690-5726   8381 T---CTATGA--CTAG--TGCTGGG--------CTGGAATTTAACCATTG   8415
+
+156400281-156   8227 CTTGAGCCCAGGAGTTTGAGACCAGTC----TGGGCAACATAGGGAGACC   8272
+                     ||||    |...|||||        ||    |.||||.|||         
+57127690-5726   8416 CTTG----CTACAGTTT--------TCCCTTTCGGCATCAT---------   8444
+
+156400281-156   8273 ACCCCCT----GCCCA-TG-ATCTCTACAAAAAGTAAAAAAACTAGCCAG   8316
+                      |..|||    .|||| || ||.||  |.||..||               
+57127690-5726   8445 -CTTCCTTTCAACCCAGTGTATTTC--CTAATTGT---------------   8476
+
+156400281-156   8317 GCATGGTGGTGTGCACCTCTGTAGTCCCAGCTACAGGGGAGGCTGAGGTG   8366
+                        |.|||||           |||    |||        ||.||      
+57127690-5726   8477 ---TAGTGGT-----------TAG----AGC--------AGACT------   8494
+
+156400281-156   8367 GGAGAATCTCTTG-AGCCTGGAAAGTTGAGGCTGCAGTGAGCTGTG-ATT   8414
+                         ||.||.||| |.|| |||                ||.|||.| ||.
+57127690-5726   8495 ----AAACTGTTGTAACC-GGA----------------GATCTGAGTATA   8523
+
+156400281-156   8415 GCCCCACTGCACCTGGTAAAAAAAAAAAAAAAAAAAAAAGACAAGAAAGG   8464
+                     |.|||| .||.|                        ||.||||||     
+57127690-5726   8524 GACCCA-GGCTC------------------------AAGGACAAG-----   8543
+
+156400281-156   8465 CAAATGCA--GCCAGCTCCTGAAGGA---TC--TTGGC-----TG-----   8497
+                         |.||  .|...|||||| .|||   ||  |||||     ||     
+57127690-5726   8544 ----TTCATTTCTTTCTCCTG-TGGAGTTTCGGTTGGCATATATGGTTTT   8588
+
+156400281-156   8498 -----CTGGGTGAAGTTTGGGTGAGGCCAGGTAGGCTATTGTGTT----A   8538
+                          ||.||||.||..||..||...||          ||.||||    |
+57127690-5726   8589 CTTCTCTTGGTGCAGACTGCATGGATCC----------TTCTGTTTACAA   8628
+
+156400281-156   8539 TG-AGTT----AAATTTTGTT----GCCC---------AA---AAATGTG   8567
+                     || ||||    .|..||||||    ||||         ||   |||   |
+57127690-5726   8629 TGTAGTTCCTCTAGCTTTGTTTTCAGCCCCGTTCAGCGAATGGAAA---G   8675
+
+156400281-156   8568 CATGTTGAAGTAAAAAATTTGCATGTTGAAGTCCT-AACCCCTCGAAATA   8616
+                     |     ||||..||.||   ||||.|..|..|.|| |||.||   ||.| 
+57127690-5726   8676 C-----GAAGAGAAGAA---GCATTTCCACCTTCTCAACACC---AACT-   8713
+
+156400281-156   8617 TGACCTTATTT--------GGAAACAAGGTCTT--TGCAGGTGATCAAGT   8656
+                         |||.|||        .||.|||.|||.||  |||            
+57127690-5726   8714 ----CTTTTTTTTTTTTTCTGAGACAGGGTTTTTCTGC------------   8747
+
+156400281-156   8657 AAAGATGAGGTCATTATGGTGGACCCTAATCCAATAGGACTGG-TGTCCT   8705
+                                                      ||||..|||| ||||||
+57127690-5726   8748 ---------------------------------ATAGTTCTGGCTGTCCT   8764
+
+156400281-156   8706 TATGAAAGGGAA---------------AGGTTGG------ACAGAGAGAC   8734
+                             ||||               |||||||      ||..|||.|.
+57127690-5726   8765 --------GGAACTCACTTTGTAGACCAGGTTGGCCTCGAACCCAGAAAT   8806
+
+156400281-156   8735 ACGCATACCATCTG------------AA-------GATGAAGGCCGTG--   8763
+                     .|||.|.|| ||||            ||       |||.||.|.||||  
+57127690-5726   8807 CCGCCTGCC-TCTGCCTCTGCCTCCCAAGTGCTGGGATTAAAGGCGTGCA   8855
+
+156400281-156   8764 -------GTTCAGGTGATGCTTCTATAAACT------AAGAAAAAACCAC   8800
+                            |..||      |||...||.||||      ..|||....||||
+57127690-5726   8856 CCACCACGCCCA------GCTAACATCAACTCTTGTAGTGAATGTGCCAC   8899
+
+156400281-156   8801 CAGA--------------AGCCGGAAAGAGATATGCAGCAGATTTTCCCT   8836
+                     ||.|              .||.||||    ||.||..|||||.|    ||
+57127690-5726   8900 CACAGCTCACATTGGCTTGGCTGGAA----ATCTGATGCAGAGT----CT   8941
+
+156400281-156   8837 CTC-TGCC--CACAGAAAAATCATTTCTGCCAA-CACCTTGATCTTGGAT   8882
+                     ||| ||||  || ||.||.||      |||||| .||.|..|.||.|||.
+57127690-5726   8942 CTCTTGCCTTCA-AGGAAGAT------TGCCAATGACTTCTAGCTAGGAG   8984
+
+156400281-156   8883 CTGTGGCGTCCAAAAC-TGAGACAATAAAT-TTCTAAGCCACACAATTGG   8930
+                     |.|.||       |.| ||.|||.|||..| ||..||             
+57127690-5726   8985 CCGAGG-------ATCATGGGACTATAGGTCTTGAAA-------------   9014
+
+156400281-156   8931 TGAT-ACTTGTT-ATTGGCAGCTCTAGCAAACTAATGCA--TTAGGTTAT   8976
+                     |||| ||||.|| ||.|   |.|||          |.||  ||||   |.
+57127690-5726   9015 TGATAACTTTTTCATAG---GGTCT----------TTCATCTTAG---AC   9048
+
+156400281-156   8977 CAAGAAGTAACTCAGCAGTTAGGATACTATAGTCTTACATTTTTGACTTG   9026
+                     ||.||||    .||| ||.|||.||      |||           |.|||
+57127690-5726   9049 CAGGAAG----ACAG-AGGTAGCAT------GTC-----------AGTTG   9076
+
+156400281-156   9027 GCAGAGACCAGTATATTTGTGCATTAATACCATTAACT-----TCA----   9067
+                     .||||      ||..|.||| ||  |.|.||   ||||     |||    
+57127690-5726   9077 TCAGA------TAACTCTGT-CA--ACTCCC---AACTCTGAGTCACCAC   9114
+
+156400281-156   9068 ---TTCTTAATAT-------TAGTTCTTGACAATTTAAGCAACACAAAGC   9107
+                        |||.||.|.|       ||.|.|||   |||||              
+57127690-5726   9115 AAGTTCGTACTTTCTTTCCCTACTACTT---AATTT--------------   9147
+
+156400281-156   9108 TAAACACAACAATAATAGTAGAAAGTCTGCTGAGTGTGGTGGCTGACATC   9157
+                                ||.||..|      |||.||||           |||||.
+57127690-5726   9148 -----------ATTATTTT------TCTTCTGA-----------GACATG   9169
+
+156400281-156   9158 ATAATCCCAGTTCTTTGGGAAGCTGAG-GTGGGAGGATCTT----TCAGG   9202
+                     .|..|||     ||.||       .|| .|.|||.||.|||    |||  
+57127690-5726   9170 GTTCTCC-----CTATG-------TAGACTAGGATGACCTTGAACTCA--   9205
+
+156400281-156   9203 GCCAGGTGTTCAAGACCAGCCTGGCCAACATAGGCAGACCCCCCAACT-C   9251
+                       |||.|.|          |||.|||                   .|| |
+57127690-5726   9206 --CAGATTT----------CCTTGCC-------------------TCTGC   9224
+
+156400281-156   9252 CACAAAAA-------ATAAAAAAAAATTAGCCAGGCATG-GTGGTGCATG   9293
+                     |.|...||       ||.||            ||||||| ||      |.
+57127690-5726   9225 CTCTGGAATGCTTGGATTAA------------AGGCATGTGT------TC   9256
+
+156400281-156   9294 CCTGTAGTCCTAGCTACTCAGGAGGCTGAGGTGGGAGGATCACTTGAGCC   9343
+                     |||.||||      |||||            ||.||     |..|.||||
+57127690-5726   9257 CCTTTAGT------TACTC------------TGTGA-----AAATTAGCC   9283
+
+156400281-156   9344 TGGGAGTTTGAGGTTGCTGTGAGCTATGATTTCACCACTGTACTCCAAAC   9393
+                                  |||||                           ||.||
+57127690-5726   9284 -------------TTGCT---------------------------CACAC   9293
+
+156400281-156   9394 TGAATGACAGAGGGAGATTCCAT-----CTTTAAAAAACAAAAACAAAAA   9438
+                     |.|||            ||..||     .|||.|||||.|          
+57127690-5726   9294 TTAAT------------TTTTATTGCTCTTTTTAAAAATA----------   9321
+
+156400281-156   9439 AACCTAGAAAGTCAAGGAACAATTCAGCAT-AGTT------AGGAGAGAG   9481
+                         |.|..|||     |.||.|   |||| .|||      |||||.|||
+57127690-5726   9322 ----TTGGGAGT-----AGCAGT---GCATGTGTTGAATCCAGGAGGGAG   9359
+
+156400281-156   9482 -GACCTATATTCCATAAATAAACTATTCTCCAAAGTTAACATCCTGGACC   9530
+                      |||                             |||             |
+57127690-5726   9360 AGAC-----------------------------AGT-------------C   9367
+
+156400281-156   9531 AGGTATGGTGGTTCATGCCTTTAATCCCAACATTTTGGGAGGTTGAGGC-   9579
+                     ||||                            .|.|||.||.||||||| 
+57127690-5726   9368 AGGT----------------------------CTATGGAAGTTTGAGGCT   9389
+
+156400281-156   9580 AGGAGGATCCCTTGAGGCC-----AG-GAGTTTGACACCAGCCTGGGTCA   9623
+                     ||       |||   ||||     || ||||||||.|.|||||.||| |.
+57127690-5726   9390 AG-------CCT---GGCCTACATAGTGAGTTTGAAAACAGCCAGGG-CT   9428
+
+156400281-156   9624 ACACAGTGAGACACCAG---CTAATA-------AAAAAATT---------   9654
+                     |||||||||||| ||.|   ||||||       ||||||||         
+57127690-5726   9429 ACACAGTGAGAC-CCTGTCTCTAATAAAACAACAAAAAATTGATTTTATT   9477
+
+156400281-156   9655 -----------AGCCAGGTGTGTTGAGGCAGAGGATCCCTTGAACCCAGG   9693
+                                ||.||||..|.|    ||.|||.|||.|         ||
+57127690-5726   9478 ACCTTTTGGTAAGACAGGGATTT----GCTGAGTATCTC---------GG   9514
+
+156400281-156   9694 ---AATTTGAGGCTACAGTGTGCTATGATTGTGGCACTGCACCCCAGCCT   9740
+                        |.|||.|    |||     |.|  |||||   ||||   |||.|.||
+57127690-5726   9515 GTCAGTTTTA----ACA-----CAA--ATTGT---ACTG---CCCTGGCT   9547
+
+156400281-156   9741 -----AGGCAACAGAGCAA-TATCC----CATCTCAAAAAGAAGAAAAAA   9780
+                          ||||       ||| |||.|    ||||                 
+57127690-5726   9548 TCTAAAGGC-------CAACTATGCAGGACATC-----------------   9573
+
+156400281-156   9781 GGAAGGCTTATAGATGATAAAAGTAATTGACAGCCACTTTTTAAAAATTA   9830
+                                            |||||..||       |||||||    
+57127690-5726   9574 -----------------------TAATTTGCA-------TTTAAAA----   9589
+
+156400281-156   9831 GCTTTTTGCTTTTATTTATTTATTTTT--------CTTCCATTTC---AG   9869
+                                     ||||||             ||.|.|.|||   |.
+57127690-5726   9590 ----------------TATTTA-----CAAGAAGGCTCCAACTTCCCAAC   9618
+
+156400281-156   9870 GCTAGCAGTGTGTGACACCATAA--CAAAGTTTAAGGGCAG--CACGTCT   9915
+                     .|.|.||||       |||| ||  ||||.|.|...|.|||  |||.| |
+57127690-5726   9619 ACAAACAGT-------ACCA-AACTCAAACTGTGCTGTCAGCCCACAT-T   9659
+
+156400281-156   9916 CAC----ACATGCGGGTGAATACTCAGTCATCATGCTTATAAACTACAGA   9961
+                     |||    |..||||||      ||||  |.||.|||.|.|   ||.|   
+57127690-5726   9660 CACCTCTAGCTGCGGG------CTCA--CTTCCTGCCTTT---CTCC---   9695
+
+156400281-156   9962 AGGATCTGAATGAG-TTTCTAGAA----TAA-------------------   9987
+                               |||| |||.| |||    |||                   
+57127690-5726   9696 ----------TGAGCTTTGT-GAAAGCTTAACTTTATGTTGGCCTTTACT   9734
+
+156400281-156   9988 -------TTCCTAGTCTAAAGGTTTGTAG---------TTCTATTTTCAT  10021
+                            |||||.||..|||..||||.||         ||||...|||| 
+57127690-5726   9735 TCCTTGCTTCCTTGTTCAAATTTTTGGAGCATCCAAAATTCTGGGTTCA-   9783
+
+156400281-156  10022 GACTATTTTAGGAGCTA-GAAGC-ATT---AAATGTAATTAATGATTGTG  10066
+                         ||||.||     | ||||| |||   |    |.||||.|.||||  
+57127690-5726   9784 ----ATTTCAG-----ATGAAGCTATTTCCA----TCATTATTTATTG--   9818
+
+156400281-156  10067 AAAAGTTGCAGAC----ACAGGCATAACACAAAG-CAAGGAGGACACAAA  10111
+                              ||.|    ||.|||        ||| |||.|||        
+57127690-5726   9819 ---------AGGCCCTGACTGGC--------AAGCCAATGAG--------   9843
+
+156400281-156  10112 ACCTCAGAGAGGCAATAACATACTTTTATTTTCACATTCAATCCTATAAA  10161
+                                            |||.|||||              |.||
+57127690-5726   9844 -----------------------TTTAATTTT--------------TTAA   9856
+
+156400281-156  10162 TATCATTGCAAAATCTATATATGTGTTTTGGCACATAATATATTTACTAG  10211
+                     |                        ||||         .||.||||    
+57127690-5726   9857 T------------------------TTTT---------AATTTTTA----   9869
+
+156400281-156  10212 TCATCTTAGCTTTGTGAATTTTCTAATTTGCT--CTATTTAAAAAAGATT  10259
+                       ||.||...|||.||||.||||||.||||||  ||.||         ||
+57127690-5726   9870 --ATTTTTAATTTTTGAAATTTCTATTTTGCTCACTCTT---------TT   9908
+
+156400281-156  10260 ACCATATTTTTTCTAGAGATGG-------GGTCTTGCTGTG-----TTGC  10297
+                     .||.|||        ||.||.|       .|..||||||||     ||||
+57127690-5726   9909 CCCTTAT--------GAAATTGAACTCACCGAGTTGCTGTGACAGCTTGC   9950
+
+156400281-156  10298 CTAGGTTGATC--TTGAACTCCTAGACTCAAGCAACCCTCCCG-TCTCAC  10344
+                     .|       ||  |||.|.||||            ||||.|.| |.||..
+57127690-5726   9951 TT-------TCCTTTGGAGTCCT------------CCCTACAGCTGTCTG   9981
+
+156400281-156  10345 CTAAATAAGATACCCTGATAGG----------AGCTTCCAGG--TTTAAC  10382
+                     |      ||.|.||.|..|.||          ||||..|.||  |||..|
+57127690-5726   9982 C------AGGTTCCTTCTTGGGCTTTCTTCATAGCTCACTGGCTTTTCTC  10025
+
+156400281-156  10383 TTTGGTTGAAC-CATTAACACATTTGTCTTTAT-----TTTTTAGT--TT  10424
+                     ||..||||..| |||.|.|..||||.||..|||     .|||.|||  |.
+57127690-5726  10026 TTCAGTTGCCCACATCACCTGATTTTTCCCTATACTGGATTTGAGTGATA  10075
+
+156400281-156  10425 TACTCAT--GTAT-----GGCAAA---------------GTGCTGCATTA  10452
+                     |.||.||  |.||     ||||.|               |.|.||    |
+57127690-5726  10076 TTCTAATTAGCATCTCGAGGCACATCTCTGGGGACCTGGGAGTTG----A  10121
+
+156400281-156  10453 CA-AAGT--CATATAC-----CATT--TGACTCTGTTTTGC--TTCTTAG  10490
+                     || .|||  |   |||     ||||  ||  |.||.|.|||  |||.|.|
+57127690-5726  10122 CACCAGTGGC---TACTCCCTCATTGATG--TATGCTCTGCAGTTCATGG  10166
+
+156400281-156  10491 GATTAATGACCACCTTATCTAGATTTTGTGCTTAAAAGGTAAATACTGCT  10540
+                         .|.|||||.|||.|     ||||||                   ||
+57127690-5726  10167 ----CAGGACCATCTTTT-----TTTTGT-------------------CT  10188
+
+156400281-156  10541 ATTAGTTACTTGGAGACCTCTTCACT----------------TTTC---C  10571
+                     .|.||.|.|||      ||.||||||                ||||   |
+57127690-5726  10189 CTGAGCTGCTT------CTGTTCACTAAGGAGCATCAGGGCATTTCTTTC  10232
+
+156400281-156  10572 CCTTTCCTCAATTATATATATATACAGCATTTGCCACAAA------AGGA  10615
+                     ||||.||          |..||||..|..|.|.|..||||      ||..
+57127690-5726  10233 CCTTACC----------ACCTATAGGGTCTGTTCATCAAATCGATCAGCC  10272
+
+156400281-156  10616 TATTGCACTGGTAAAAGGAACACTCCATT----TGGTCAATTAACAGAAT  10661
+                     ||.|||| ||.|    |||      ||||    ||  ||||||..|..||
+57127690-5726  10273 TAATGCA-TGCT----GGA------CATTTCCCTG--CAATTAGGACTAT  10309
+
+156400281-156  10662 ----GTCTAACATAGACAAATTACTTCCACTTTAACGTGATTATTTTCCC  10707
+                         ||||       |||.||..|                      ||.|
+57127690-5726  10310 AGTGGTCT-------ACAGATCCC----------------------TCTC  10330
+
+156400281-156  10708 CACTTCTA-AGACAAATTCTATGTT--GTG--GGAGAAA---AATAATAG  10749
+                     |||||||| ||  ||.||..||.||  |||  |||||||   |..|.|||
+57127690-5726  10331 CACTTCTATAG--AATTTACATTTTTAGTGGAGGAGAAAGGCATGATTAG  10378
+
+156400281-156  10750 GGT----TGGTGAAAA-------TAAATAATACTACATATAGTGTTTATA  10788
+                     ..|    |||||||.|       .|.||.|.|..|..|||| ||.|||| 
+57127690-5726  10379 TATTAAATGGTGAACAGGCATTTGAGATGACAAGAAGTATA-TGATTAT-  10426
+
+156400281-156  10789 AGAAACTAGATG-TTGTCTAACT-TGAACAG-------CAAAAT-----A  10824
+                           |.||.| ||||||.||| .|.|.||       ||.|||     |
+57127690-5726  10427 ------TGGAGGTTTGTCTGACTCGGGAGAGTATGTCTCAGAATCTGACA  10470
+
+156400281-156  10825 ATTAC-------CATAAA---CTAGAA--CACT-TCTAGTTAACAGATGA  10861
+                     .||.|       |||.||   |.||||  ..|| ||| ||..|.||||||
+57127690-5726  10471 TTTTCCTTGGGTCATGAAGGCCCAGAAGGAGCTATCT-GTGCAAAGATGA  10519
+
+156400281-156  10862 A----AAAAC----------AAGGGGGTAAGTAGC---------------  10882
+                     |    |.|.|          .||||||.|.||.||               
+57127690-5726  10520 ATATTAGAGCCTTCCAGGCAGAGGGGGCAGGTGGCATCATGTGTGGTGGC  10569
+
+156400281-156  10883 -----TTATTTAA-----------------AA----------------AT  10894
+                          .|.|||||                 ||                ||
+57127690-5726  10570 CTCAGGTCTTTAATCCCAGTACTAAGGAGGAAGAGGCAGTTCATTGTCAT  10619
+
+156400281-156  10895 CCT--TCAAAAAGTAAGT---AGA--AGGCTGGAATTCTGACTCTA-GAG  10936
+                     |||  |.||||||.||.|   |||  ||.|.|.|.|    ||.|.| |||
+57127690-5726  10620 CCTGGTTAAAAAGCAAATTCCAGACCAGACAGAACT----ACACAATGAG  10665
+
+156400281-156  10937 CTTATGTTCTTAACAACTTGTCTAGGCTCCATAACAAATTGTC----TGT  10982
+                     .|.||||.|..|||||.....|.||    || |||||   |.|    |||
+57127690-5726  10666 ATCATGTCCCAAACAAGCAAACAAG----CA-AACAA---GCCAAGGTGT  10707
+
+156400281-156  10983 GTACTTCATTTGTATAACTTTCCAG-TCACATAAGTTCTCTCTCTCTCTC  11031
+                     ||.||  ||   ||||    .|||| |||.|.||                
+57127690-5726  10708 GTTCT--AT---TATA----CCCAGCTCATAGAA----------------  10732
+
+156400281-156  11032 TTTTTATTTTTAAATTTTTTTGAGATGGAGTTTCAT-TCTTGTCACCCAG  11080
+                                       .|.|||.|||||  ..|| |||       |||
+57127690-5726  10733 ------------------CTGGAGCTGGAG--AGATATCT-------CAG  10755
+
+156400281-156  11081 GCTGG---AGTGCAATGGTGTGATCTTGGCTCGCTGCAACCTCCACCTCC  11127
+                       |||   ||..||.||.| ||.||||   ||...|.|          ||
+57127690-5726  10756 --TGGTTAAGAACACTGAT-TGCTCTT---TCAGAGGA----------CC  10789
+
+156400281-156  11128 TGAATTCAAGCAATTCTCCTCCCTCAGCCTCCCAAGTAGCTGGGATTACA  11177
+                     |||.||    |||||       |.||| |.||||..| |.|||       
+57127690-5726  10790 TGAGTT----CAATT-------CCCAG-CACCCACAT-GGTGG-------  10819
+
+156400281-156  11178 GGCACCCACCACC--CTGCCCAGCTA-ATT----TTTG----TATTTTTA  11216
+                         |||||.|||  |||  .|.||| |||    |.||    ||||    
+57127690-5726  10820 ----CCCACAACCATCTG--TAACTAGATTAGGATGTGAACATATT----  10859
+
+156400281-156  11217 GTAGAGACAGGG-----------------TTTTACAATATTGGCCAG-GC  11248
+                            |||||                 |||||.||.|||  |.|| | 
+57127690-5726  10860 -------CAGGGTGTCTGTATGGAATTTTTTTTATAACATT--CAAGAG-  10899
+
+156400281-156  11249 TTGTCTTAAACTCCTGACCTCATGTGATCCACCCGCCTC-AGCCTCCCAA  11297
+                            |||||         .|||||..|     |||| ||.||.|   
+57127690-5726  10900 -------AAACT---------TTGTGAAGC-----CCTCAAGGCTAC---  10925
+
+156400281-156  11298 AGTGCTGGGATTGTAATCTGTA------TATACAGAATCTAATATACA--  11339
+                                 ||  ||||||      |||    ||||.||..||||  
+57127690-5726  10926 ------------GT--TCTGTACGGCTTTAT----AATCCAAGGTACAAT  10957
+
+156400281-156  11340 ----------GAATATA-----AATTCTGT-----ATATTAAACAAAACA  11369
+                               .|.|.||     .|||||||     ..|||||        
+57127690-5726  10958 GCTTCGGTTTCATTCTAGGGTGGATTCTGTGCAGGTCATTAA--------  10999
+
+156400281-156  11370 GCAATGA----GAA---------TTTCT------AGCA-----------G  11389
+                       |||||    |||         |||||      .|||           |
+57127690-5726  11000 --AATGATGTGGAATAGTGTCTGTTTCTCAGATGGGCATGATGGCTCGCG  11047
+
+156400281-156  11390 TT-----TTTCCG-TTAGCA--CCAAGTAGCTGA-----AAGACATTGA-  11425
+                     ||     |.||.| ||.|||  |.|||.||.|||     ..||..|||| 
+57127690-5726  11048 TTGTCAGTCTCAGCTTGGCAGCCGAAGCAGATGACTGCCCTGAGTTTGAG  11097
+
+156400281-156  11426 ACTAATAAAATGTTT--TCTGC-TA-TGACCTTAAGG---GTCTTTAAAC  11468
+                     .|.|       ||||  .|||| || |||.||..|||   |.||..||||
+57127690-5726  11098 GCCA-------GTTTGGGCTGCATAGTGAGCTCCAGGCCAGGCTGAAAAC  11140
+
+156400281-156  11469 CTAAAG-----TTGTTCTTCAGAAGGGTAAGGAATTCCAAAAA-ATAATG  11512
+                     | |.||     ||||  ||||.||....||       |||||| |.||  
+57127690-5726  11141 C-AGAGGAACCTTGT--TTCACAACATCAA-------CAAAAAGACAA--  11178
+
+156400281-156  11513 GTCATTATCTGAATTTAAGATCC--TGTATTACAGAATCAATA---CAAA  11557
+                                     |||.|||  |.|.||.|    |.||.|   |||.
+57127690-5726  11179 ----------------AAGGTCCAGTTTGTTTC----TTAAAAGCCCAAG  11208
+
+156400281-156  11558 TTATAA--AAATAG-CATTTAAAATGTTTGAATCATTGATAAGAA--TTC  11602
+                     |||.||  |..||| |..|||    ||.|   ||.||||||||||  |.|
+57127690-5726  11209 TTAGAACTATCTAGACGCTTA----GTGT---TCGTTGATAAGAAGGTAC  11251
+
+156400281-156  11603 TTCCTACATAATCTTTCATGGGCTTTAGGAATATATGCCTAGCCAGGAAA  11652
+                     |||.||||||              |||||||..||.||.|.|        
+57127690-5726  11252 TTCTTACATA--------------TTAGGAAATTAAGCTTTG--------  11279
+
+156400281-156  11653 ACCAACCTCACTCAGATATGAAGTCGCTTCTT----TGTTTCA----GTT  11694
+                                |..||||.|         |||    ||.||||    || 
+57127690-5726  11280 -----------TTGGATAGG---------CTTGAGCTGCTTCAGAGGGT-  11308
+
+156400281-156  11695 TACCATCCGGAG-----CAA-----AAG-------TGCTTGGCCACCTCA  11727
+                        |||  ||||     |||     |||       |.||| ||||     
+57127690-5726  11309 ---CAT--GGAGTTTTACAATATATAAGAATTTTCTACTT-GCCA-----  11347
+
+156400281-156  11728 TTTGAAAACACTGAAACCATGCAAAGCTTCT-CTTAGTAGT------ATT  11770
+                         |.|||            |||   ||.| .|||.||||      .||
+57127690-5726  11348 ----AGAAC------------CAA---TTGTGGTTAATAGTGATTCGGTT  11378
+
+156400281-156  11771 GAGCCGCAAAGATGTAGGATTTATTAGTCAGCCTTTAAAAATAT--CTGC  11818
+                     |||.|       ||||     ||..| ||||.||.|     |.|  ||||
+57127690-5726  11379 GAGAC-------TGTA-----TACGA-TCAGTCTGT-----TCTGGCTGC  11410
+
+156400281-156  11819 ----AGACAACTG---TATGAAAAACTT---GCCCCATTG----TACAAT  11854
+                         ||..|||.|   ||||..||...|   ||..||.||    .|.|| 
+57127690-5726  11411 TGAAAGGAAACAGGGATATGGGAAGTATGGGGCGACACTGAAAAGAGAA-  11459
+
+156400281-156  11855 CCTTAGG-----AGTATAGGATTTGGCCAGGAGTGGTGGCTCACACCTG-  11898
+                      ||||||     |.|||||.||||       |||.||     .||.||| 
+57127690-5726  11460 -CTTAGGTTAAAATTATAGAATTT-------AGTTGT-----TCAACTGA  11496
+
+156400281-156  11899 ----TAATCA------CAGCACTTTGGGAGGCT-AAGGTGG------GTG  11931
+                         |.||||      ||.| |.|||   .||| |||.|||      |||
+57127690-5726  11497 GGAATTATCATGTGGGCAAC-CATTG---CGCTAAAGATGGAAAGAAGTG  11542
+
+156400281-156  11932 GATC--ATTTGAGGTCAGGAGTTCGAG-ACTAGCCTGGCCAGCATGGTGA  11978
+                     || |  |||| |||  ||..|||.|.| |.|         ||..||||||
+57127690-5726  11543 GA-CAGATTT-AGG--AGATGTTTGTGAAAT---------AGGTTGGTGA  11579
+
+156400281-156  11979 AACCCTATCTCTACTA--AGAATACAAAAAAAATTAGCCTGGCATGGTGG  12026
+                         |||..|.|..||  |||.|  |||||.|||        ||..| ||
+57127690-5726  11580 ----CTAAATTTGATAGTAGATT--AAAAAGAAT--------CAAAG-GG  11614
+
+156400281-156  12027 TGGAT------------GCCTGTAGTCCCAGCTACTTGGAA---------  12055
+                     |..||            ||..||||.||.|..||||..|||         
+57127690-5726  11615 TTCATTTTTTTACTTGAGCACGTAGGCCAAATTACTGAGAAAATGAGAAT  11664
+
+156400281-156  12056 --------------GGTTGA-GGCAGGAGA---------------ATTGC  12075
+                                   |||||| ||.||.|||               .|||.
+57127690-5726  11665 TTGGAGAGAATCAGGGTTGATGGAAGAAGACTGAAAGCACTCTGGTTTGG  11714
+
+156400281-156  12076 TTGAACCCGGGAGGCGGAGGTTGCAG-TGAGCC---GAGATCTTGCCACT  12121
+                     |||.|||         |||.||| || ||.|.|   ||.|||.||     
+57127690-5726  11715 TTGCACC---------GAGTTTG-AGTTGCGTCTTAGACATCATG-----  11749
+
+156400281-156  12122 GCACTACAGCCTGGC--ACAGAGT---GAGACTTCGTCTGTAAAAAA---  12163
+                         ||||.||.|||  |||||.|   ||||    |.|||    |||   
+57127690-5726  11750 ----TACAACCGGGCAAACAGAATTTCGAGA----GACTG----AAAGGC  11787
+
+156400281-156  12164 ----------AAAAAAAAAATACAGGATTTGGTCAGACTGCCAAGGTTTC  12203
+                               |..|.|.||||...||||||                ||| 
+57127690-5726  11788 ATTTACGCTGAGTAGACAAATTGGGGATTT----------------TTT-  11820
+
+156400281-156  12204 AATTCCATCTCCATCTTTTACTAGTTCTGTA-ATTT-----TG-ATGGGG  12246
+                       |||           |||.|..|||.|.|| ||||     || ||||| 
+57127690-5726  11821 --TTC-----------TTTGCACGTTGTTTATATTTAATACTGCATGGG-  11856
+
+156400281-156  12247 GCATTTAGCCCCT-------CTGTC----------------------TCA  12267
+                       ||||    |||       .||||                      |||
+57127690-5726  11857 --ATTT----CCTATAGAGAATGTCAAGAAAGATAAGGGACGAGTGATCA  11900
+
+156400281-156  12268 GT------------TTTCTTCTTGGTAAAAAGGGCATACAATTGT-ATGT  12304
+                     ||            ||.||||||||.||..|||    |.|| ||| ||.|
+57127690-5726  11901 GTGGTTACATAGACTTGCTTCTTGGGAACTAGG----AGAA-TGTGATCT  11945
+
+156400281-156  12305 ATCTTATA--------------GGGTTGCTGTGAGAATTAA----ATGGG  12336
+                     .|||.| |              ||.|||.|.|.|..|||||    |||| 
+57127690-5726  11946 CTCTGA-AGACAAGCCCAGAGTGGTTTGTTTTTATTATTAAAGAGATGG-  11993
+
+156400281-156  12337 CTAATGCACATAAAGCTCTTCCACAGTGTCTGGCACATAGTAAAATTAGC  12386
+                      |..||  |||.||    ||.||.||   .|.|||..|.||.||||| |.
+57127690-5726  11994 -TTTTG--CATCAA----TTACAGAG---ATTGCATTTGGTGAAATT-GT  12032
+
+156400281-156  12387 TCAATAAATATTAGCTAT--ACATAACAAAT-GAGA-------ACCAATA  12426
+                     ||     ||.||.|.|.|  || |.|.||.| ||||       ||     
+57127690-5726  12033 TC-----ATGTTTGATTTTGAC-TGATAAGTGGAGAAGGCGGGAC-----  12071
+
+156400281-156  12427 TTGTAAAACCTTCTTCTAA---------CTAGTATA-----AAGATG--A  12460
+                         ||||.||     |||         || |||.|     |||.||  |
+57127690-5726  12072 ----AAAAGCT-----TAATGGGTTGAGCT-GTAGAGGTGGAAGCTGGAA  12111
+
+156400281-156  12461 GCAACATTTGGCTTTGGATTATCCTAAAGAAA------------------  12492
+                     ||.|     |.||||..|..|..||.||||||                  
+57127690-5726  12112 GCCA-----GACTTTTCAGAAAACTCAAGAAATGTGAAGAAGAAGGAGAT  12156
+
+156400281-156  12493 -----------------AAACAGT------AAGCAGAA-AATTATACCTT  12518
+                                      |.||.||      |||.|||| .||.||||   
+57127690-5726  12157 GGCGATGATGTTTGCGCACACGGTGCTTTGAAGAAGAACCATAATAC---  12203
+
+156400281-156  12519 TTAAA------ACTATGATGCCAGGAGCAGTGAGTGGCTCATGCT----T  12558
+                     |||||      |||||||         ||||.|| .||.||||||    |
+57127690-5726  12204 TTAAAACAGACACTATGA---------CAGTCAG-AGCCCATGCTGAGAT  12243
+
+156400281-156  12559 GTAATCTCAG---CACTCTG-AGAGGCTGAGAC----AGG--TGGATC--  12596
+                     |.|.||..||   |||||.| |||||.||.|||    |||  ||||.|  
+57127690-5726  12244 GGAGTCAAAGAACCACTCAGCAGAGGTTGGGACCTCGAGGGTTGGAGCCT  12293
+
+156400281-156  12597 ------AATTAAACTCAG----GAGTTTGAGACCAGCCTGGGCAACATAG  12636
+                           ||.||.|..|||    |||||||.||        .|.|||..||
+57127690-5726  12294 CCAGGTAAATACATACAGAGCTGAGTTTGGGA--------AGGAACCAAG  12335
+
+156400281-156  12637 TGAAACCCCTTCTCTA-------CAAAAAAT--ACAAAAATTAGTCTGGC  12677
+                     ||           |||       |||..|||  .||.||           
+57127690-5726  12336 TG-----------CTAAGGTCATCAATGAATGAGCAGAA-----------  12363
+
+156400281-156  12678 ATGATGG-TGTGTGTCTGTAGTCCCAGCTACTTGGGAGGCTGAGG-----  12721
+                       ||||| || |||.|||.|               |||   ||||     
+57127690-5726  12364 --GATGGATG-GTGACTGCA---------------GAG---GAGGAATAA  12392
+
+156400281-156  12722 CAGGAGGATT--------------------------ACATGAGCCCTGGA  12745
+                     .||||||.||                          |.||      ||.|
+57127690-5726  12393 TAGGAGGGTTTTTTTTTTTAATTTTTAAATTTTTTAAAAT------TGTA  12436
+
+156400281-156  12746 GGTTGAGGCTG----------CAGTAAG-CTGTAATCATGCCACTACACT  12784
+                     .|.|..|.|||          ||.||.| |||.||.||    ||.|||  
+57127690-5726  12437 TGCTATGCCTGTTTCTAAGAACAATAGGACTGAAAACA----ACAACA--  12480
+
+156400281-156  12785 CCAGCCTGGGTGACAGAGCAAGACAC------TGTCTGAGGGTGGG----  12824
+                                     |.||||..||      |||.|||   ||||    
+57127690-5726  12481 ----------------ACCAAGTTACATGTTTTGTTTGA---TGGGCACA  12511
+
+156400281-156  12825 -TGG--------------------AGTTGGGAGAAAGATGAGCAATGTGT  12853
+                      |||                    ..|||      |||| .|.|||||  
+57127690-5726  12512 TTGGCCTTTTTTTTTCCTTTTTCTTTTTG------AGAT-TGTAATGT--  12552
+
+156400281-156  12854 TAAGAGGACAAGTA----ATT-----------------------------  12870
+                              |||||    |||                             
+57127690-5726  12553 ---------AAGTACAACATTTCTTCTCCCCGACCCGCTCCAACCCTCCC  12593
+
+156400281-156  12871 ATAAAACTGA-GAGAAGAAACTGCATAG--------------AGCCAA--  12903
+                     || ..||||| .||||.|..||.|||.|              |.||||  
+57127690-5726  12594 AT-GTACTGACTAGAATAGCCTTCATGGCACAGTATGGAGTTAACCAATG  12642
+
+156400281-156  12904 ----AAT----ATATTTTCTCTGAGCTCGTAAAAATGGCAACT--CTTT-  12942
+                         |.|    |||.|||.|||   .|.|.|.|||...|||.|  |||| 
+57127690-5726  12643 AGTCACTGGCCATAATTTGTCT---ATGGGACAAAGTCCAAATTCCTTTG  12689
+
+156400281-156  12943 ATTTC------ATCA------ATATTCCATAAC-------CTTTGCTTAT  12973
+                     |.|||      ||||      |||||..|||||       |.||||||||
+57127690-5726  12690 AATTCGCAGGAATCATATGAGATATTTAATAACTACCCCACCTTGCTTAT  12739
+
+156400281-156  12974 TCTTTTTAGAGCT-ATCTTGGTGGGGGTGATACTGAAAG---TAATAATC  13019
+                     |.||||     || ||||...|..||||.|   |||..|   |.||...|
+57127690-5726  12740 TTTTTT-----CTCATCTCCTTCTGGGTTA---TGATTGCTTTGATGGCC  12781
+
+156400281-156  13020 AGCCAGGTGAGGTGGCTCATGCCTGCAATTCCA-----GC---ACTTT--  13059
+                     |.||   |||    .||..|||||  .||||.|     ||   .||||  
+57127690-5726  12782 ACCC---TGA----ACTTCTGCCT--CATTCTAATCTTGCTAACCTTTGA  12822
+
+156400281-156  13060 GGGAGG-------CCGAGGCAG--GTGGATCACCTGAGGTCAGGAGTTTG  13100
+                     ||||||       ||.||.|||  ||      |||    |||||     .
+57127690-5726  12823 GGGAGGGCTACTACCCAGCCAGAAGT------CCT----TCAGG-----T  12857
+
+156400281-156  13101 AGACCAGCCTGGCAAACATGGCGAAATCCCGTCTCTACTAAAAATACAAA  13150
+                     ||.|.|.|    |||||.||                ||||.||.||    
+57127690-5726  12858 AGGCTAAC----CAAACTTG----------------ACTAGAACTA----  12883
+
+156400281-156  13151 AAAATTAGCCAGGTGTGGTGGTTCGTGCCTGTAGTC-CCAGC-------T  13192
+                           ||.|      ||..|.|.|.|.|.|.|||| |||||       |
+57127690-5726  12884 ------AGAC------GGCTGCTAGAGACAGCAGTCTCCAGCTTTATTAT  12921
+
+156400281-156  13193 ACGTGGGAGGCTGAGGCAGGAGAATCACTTG------AACCCAGGAGGCA  13236
+                     |..|                |..|||||.||      ||     |.|.||
+57127690-5726  12922 ATAT----------------AATATCACCTGCATTGTAA-----GTGACA  12950
+
+156400281-156  13237 GAGGTTGCAGTGATCCGAGA-TCATGCCACTG-------GACTCCAGCCT  13278
+                     .|...|.|||| |.|.||.| |||  ||||||       |.| |||  ||
+57127690-5726  12951 CATTCTCCAGT-AGCGGACAGTCA--CCACTGTCACGGTGGC-CCA--CT  12994
+
+156400281-156  13279 GGGTGTGACAGAGTGAGACTCCACCACACAAAAAAAATAAATAAATAAAA  13328
+                     ||.|||..|                               ||||| ||.|
+57127690-5726  12995 GGATGTAGC-------------------------------ATAAA-AAGA  13012
+
+156400281-156  13329 ATAAAAATAAATAAGGCCT------GG---------CCC------AGTG-  13356
+                     .||||||||.||   ||||      ||         |||      |||| 
+57127690-5726  13013 GTAAAAATAGAT---GCCTATATTAGGAACTTTCTACCCATCCTTAGTGA  13059
+
+156400281-156  13357 -------GCTCACACCTGTAAT---------CCCAGCACT---TTGGGAG  13387
+                            |.||...|||.||.|         |||..|.||   ||     
+57127690-5726  13060 GATATTAGGTCTTCCCTTTAGTAGCCTATTCCCCTCCTCTGCCTT-----  13104
+
+156400281-156  13388 GCAGAGGTGGGCGGATCACC-TAAGGTCGGGAGTCCAAGACCA--GCCTG  13434
+                                  |..|||| |||          |.||||.||  |||  
+57127690-5726  13105 -------------GCCCACCATAA----------CAAAGAACACTGCC--  13129
+
+156400281-156  13435 GCCAACAAGGT-GAG-------------ACCCTGTCTCTACTACA-----  13465
+                      ||..|||||| |||             .|.|||||||    |||     
+57127690-5726  13130 -CCTGCAAGGTCGAGGGCTTGCTTGGCATCTCTGTCTC----ACAGCTGT  13174
+
+156400281-156  13466 -----------AATACAAAATTAGCCAGGCGTGGTGGCGCATGCCTGTAA  13504
+                                |||||||..||  |||   ||.||....||..|.|||.|
+57127690-5726  13175 CCTTGACCAACAATACAAGTTT--CCA---GTTGTTATTCAGTCTTGTTA  13219
+
+156400281-156  13505 -------------TCCCAGCTACGTGGGAGGCTGAGGCAGGAGAATCGCT  13541
+                                  ||||||                    .|||||.|   
+57127690-5726  13220 CTGGTTCTACAGTTCCCAG--------------------AGAGAAAC---  13246
+
+156400281-156  13542 TGAACCCAGGAAGCGG--AG------GT--TGT-GGTGAGCCAAGATCGT  13580
+                     .|.|||||.|..|.||  ||      ||  ||| |.|| |||    || |
+57127690-5726  13247 AGGACCCATGCTGTGGGCAGTATCTAGTAATGTCGCTG-GCC----TC-T  13290
+
+156400281-156  13581 GCCATTGACCTCCAGCCTGGGCAATAAGAGCAAAACTC--TGTCTCAAAT  13628
+                     ||..|||  |.|||  |.|||           |.||||  |..|||    
+57127690-5726  13291 GCTTTTG--CACCA--CAGGG-----------ACACTCATTCCCTC----  13321
+
+156400281-156  13629 AAATAAATAAATAA-----TTC-CT--GAATCTTTTTCCATGGGAGTGTG  13670
+                           |.|||..|     ||| ||  |.|||.|||..|||.|...|.||
+57127690-5726  13322 ------AGAAAGCACCGTGTTCACTTGGCATCGTTTCTCATAGTCATTTG  13365
+
+156400281-156  13671 GAAAATACGAA---TAAA---GTGATTTA-TA-TGC--TCAATATAATTA  13710
+                     ||.|  .||||   |.||   ..||.||| || |||  ||..||.|..||
+57127690-5726  13366 GACA--CCGAACCTTCAACAGCAGAGTTACTACTGCTTTCCCTACAGCTA  13413
+
+156400281-156  13711 -------------------------------ATGAATAAGCAGAAATATT  13729
+                                                    |.|.|||||      ||.|
+57127690-5726  13414 CCCCTCGGATCTTCCTTGCCCCTTCTCCCTCAGGGATAAG------TAGT  13457
+
+156400281-156  13730 CAATTGAATTTAG-TTTGCTTCAAAA----ATTCAGTCACTT--------  13766
+                     |      .||||| |||...||.|||    ||.||..|||||        
+57127690-5726  13458 C------CTTTAGCTTTTTATCTAAACCTTATCCATACACTTTTTTTTAT  13501
+
+156400281-156  13767 --CTGCTTAAATAACTTTAAGGTTAAATTAAGAAGAGTTGATGCAAATG-  13813
+                       .||.||||.|||.|||                   ||||  ||||.| 
+57127690-5726  13502 TGTTGATTAATTAATTTT-------------------TTGA--CAAAGGG  13530
+
+156400281-156  13814 ----CA-CATATCACTTGGGGACAAAGTTTGATTTTC------CTTATTA  13852
+                         || |||.|.||       ||     ||..|.||      |||.||.
+57127690-5726  13531 TCCCCATCATGTAAC-------CA-----TGGCTGTCCTGGAACTTGTTC  13568
+
+156400281-156  13853 T-TAAAGAATAG---GGTCTTGATGTTATTCTCAC---------------  13883
+                     | |  |||..||   ||.|||||      .|||||               
+57127690-5726  13569 TGT--AGACCAGGCTGGCCTTGA------ACTCACAGAGATCTGCTTGCT  13610
+
+156400281-156  13884 TCTTCCATTTAAAAAT---------TGGAATATAAATAAAGAACAAATGT  13924
+                     |||.||         |         |||.||     |||||       ||
+57127690-5726  13611 TCTGCC---------TCCCGAGTGCTGGGAT-----TAAAG-------GT  13639
+
+156400281-156  13925 CATCAATGTATT-------CTTATTTCAATATTCTAAGTGAAATTAGAAT  13967
+                          .|||.||       ||..||||.||.|..|        |||||||
+57127690-5726  13640 -----GTGTGTTCCCGTGCCTGGTTTCTATTTGTT--------TTAGAAT  13676
+
+156400281-156  13968 ATTGCTTTCAGAA--TTGATGT--TTTAAAGCAGAGT------ATTGTT-  14006
+                     .|...||||.|||  .||||||  ||.||.||||| |      |||..| 
+57127690-5726  13677 CTCCTTTTCTGAACTATGATGTCCTTCAAGGCAGA-TCCACAAATTAGTC  13725
+
+156400281-156  14007 --------GTTGAAC--ATAAATAACGTATAAGTGACTATCAACCTATGT  14046
+                             |||.|||  ||.|| |||||   ||||..||..||       
+57127690-5726  13726 ACTCACAGGTTTAACCGATGAA-AACGT---AGTGCTTACTAA-------  13764
+
+156400281-156  14047 TTCTCCATTCTTT--AAATTGTATATAAACTGCAGGTTAAACCCAACAGT  14094
+                              ||||  ||||||                         |..|
+57127690-5726  13765 ---------CTTTACAAATTG-------------------------CCTT  13780
+
+156400281-156  14095 TCTGTGATAATTGATGTGAAGCGTAAGGGGAGAGAATCA--ATGTGAGGT  14142
+                     |||.|         |.|||.|.|||||         |||  .||||    
+57127690-5726  13781 TCTTT---------TCTGAGGTGTAAG---------TCATGTTGTG----  13808
+
+156400281-156  14143 CAAACGTTCACATTAAAATTTAAAGATTAGGTCGGTTATCTGAAAGGATT  14192
+                     ||.||.||                       |.||||||||         
+57127690-5726  13809 CATACTTT-----------------------TGGGTTATCT---------  13826
+
+156400281-156  14193 CATAATGCTTCTTATAGATATATCTAAATGTGTTTTTGTACTAAGAAATA  14242
+                            .|||||.||.||             |||||   |..|| |.||
+57127690-5726  13827 -------TTTCTTTTATAT-------------TTTTT---CATAG-AGTA  13852
+
+156400281-156  14243 TTT--GAATCCTGAGTAGCTTAGATATTTACATGCTTTATGGAAAAGAT-  14289
+                     |.|  .|.|||.|..||||||.|| |||.|    ||||.|.|..|||.| 
+57127690-5726  13853 TCTCATAGTCCAGGCTAGCTTTGA-ATTCA----CTTTCTAGCCAAGGTT  13897
+
+156400281-156  14290 ---GTGAACCA-------AATAATCTAAGTTACTTTCTAGCTCTGTAACT  14329
+                        .|||||.|       .||..|||   |||.||.|||..|.||||..|
+57127690-5726  13898 TTCTTGAACTATTGAGTTTATTGTCT---TTATTTCCTAAGTGTGTACGT  13944
+
+156400281-156  14330 CTGTGACA--CTTCAACGGCTTTTCAAGCA------TATTATTA------  14365
+                          |||  .||||   |.||||..|.||      |.||.|||      
+57127690-5726  13945 -----ACATTTTTCA---GATTTTGCATCAGACTCCTGTTTTTAGCGCGA  13986
+
+156400281-156  14366 -------------ATATTAGTGAATGTTATTAAAAAAGAAATAAACTTTT  14402
+                                  .||.|.|||||.|              |.||.||.||
+57127690-5726  13987 CCCCCCTCCCGCCTTACTGGTGAAGG--------------AGAATCTGTT  14022
+
+156400281-156  14403 TACATTCAAAGTGGATGAGTTC--TAAA-------TATAT---TTTCAAA  14440
+                     .| |..||||   ||||.||.|  .|||       |||.|   |..|.||
+57127690-5726  14023 GA-AAGCAAA---GATGGGTGCAGGAAACACTTGCTATCTGTGTGACCAA  14068
+
+156400281-156  14441 TGTTATTGGGA-------CTAGCATTACTTTAACAAAAACTTGGTTTTTC  14483
+                     .|..||||.||       |.|||             ||.||.|||     
+57127690-5726  14069 GGCGATTGAGATGGAAAGCCAGC-------------AATCTGGGT-----  14100
+
+156400281-156  14484 AATGATTATTATA----TCATTC-CCATTTACATT--TTTCAAATG----  14522
+                                ||    ||.||| ||.||..|.||  ||     ||    
+57127690-5726  14101 -----------TACGCCTCGTTCGCCGTTGTCGTTGCTT-----TGGGCT  14134
+
+156400281-156  14523 GAGATGTCATCAATTATTCCATAAATATTCTAAATAACAATAACAGCTCT  14572
+                     |||.|||.||||.|.|.|.|||   |||| ||.|||.|          ||
+57127690-5726  14135 GAGCTGTAATCATTAACTTCAT---TATT-TATATAGC----------CT  14170
+
+156400281-156  14573 AA--AAGGGATAAATAT--ACCTTTAATATCTATTGT--TAAATAAGGAT  14616
+                     ||  ||||  .||||.|  ...|||    |||..|||  |   ||||  |
+57127690-5726  14171 AATGAAGG--CAAATGTGGTGGTTT----TCTGGTGTGCT---TAAG--T  14209
+
+156400281-156  14617 ATAA-----------------AATGTCATATAATATCTAACTA-------  14642
+                     ||.|                 |.||||      .|.||.|.||       
+57127690-5726  14210 ATGATTGGGTGGCCTTTTTCCACTGTC------CACCTGAGTATGCCGAT  14253
+
+156400281-156  14643 --GATTCAGAAATTATATGATGAGTT------AATGGGCTCCTATTTCCT  14684
+                       |||..||||.|| |.|||.||.||      ||   |.||  |.|||||
+57127690-5726  14254 GGGATGTAGAACTT-TCTGAAGACTTGTGTCAAA---GTTC--AGTTCCT  14297
+
+156400281-156  14685 --------CTTTCAGACAATATAATGACAACATTTT-----TTTCCCAT-  14720
+                             |.|||||        |||   .||.|||     |.||.||| 
+57127690-5726  14298 TTAAGGTCCCTTCAG--------ATG---TCAGTTTCCTCGTCTCACATG  14336
+
+156400281-156  14721 AGGTTATTGGGGTTACGTAAATT-CTTTAGTGGT-----GATTTCTGAGA  14764
+                     |..|.||            |||| |||..|||.|     ||||  |||||
+57127690-5726  14337 AACTAAT------------AATTACTTCTGTGTTACCAAGATT--TGAGA  14372
+
+156400281-156  14765 T--------TCTGGTGCACCCATCACCCGAGCAGTAT--ACATTG-----  14799
+                     |        ||.|.||           |.||||||||  ||||||     
+57127690-5726  14373 TAATGTAAATCAGATG-----------CCAGCAGTATGAACATTGTGAGT  14411
+
+156400281-156  14800 CACCAT-ATTTGT-AGTCTTTTATCCC-----------TCACTCCCTCCC  14836
+                     |||||| ||.||| ||      |.|.|           |||||||.|..|
+57127690-5726  14412 CACCATGATGTGTAAG------AACACCAGGGAGTGAGTCACTCCGTAGC  14455
+
+156400281-156  14837 ACCCTTTTCCCCCAAATCCCCCAAGTCCATTGT-----------------  14869
+                     |||                           |||                 
+57127690-5726  14456 ACC---------------------------TGTGGATGGGAGTGGTGGGA  14478
+
+156400281-156  14870 -----ATCAT-----------TCTTTTTT-----TTTTTTTTTTTTTTGA  14898
+                          |.|||           .||..|||     |||            |
+57127690-5726  14479 AAGGGAGCATGGTGGGGGCTGGCTGGTTTGGGAGTTT------------A  14516
+
+156400281-156  14899 G--------ACAGAGTCTTGCTCAGTGGACCAGGCTGGAGTGCAGTGGC-  14939
+                     |        ||||.|  |||  ||||       |.||| ||..|||||| 
+57127690-5726  14517 GGATGAATAACAGGG--TTG--CAGT-------GATGG-GTAAAGTGGCT  14554
+
+156400281-156  14940 ---GCGAACTCTGCTCACTGCAAGCTCCGCCTCCCGGGTTCACGCCGTTC  14986
+                        |.||   |.|||.|..|.|         |.||.|||       |||.
+57127690-5726  14555 AGTGGGA---CCGCTTATGGGA---------TGCCTGGT-------GTTA  14585
+
+156400281-156  14987 TCCTGCCTCAGCCTCCC---GAGT-----------AGCTGGTATTACACG  15022
+                     .|.||       .||||   ||||           |.|||.|.|.||||.
+57127690-5726  14586 GCATG-------TTCCCAGTGAGTGAACAAGGAAGACCTGTTTTGACACT  14628
+
+156400281-156  15023 CGCCCGCCACCACTCCCGGCT-----ATT-TTTTC--GTATTTTTAGTAG  15064
+                     .|               ||.|     ||| |||||  |||.||...|.| 
+57127690-5726  14629 TG---------------GGGTCATAGATTGTTTTCAGGTAATTCCTGCA-  14662
+
+156400281-156  15065 AGATGGGGTTTCACCAT--GTTGGCCAGGATGGTCTCGATCTCTTGACCT  15112
+                     |||         ||.||  ||||       ||||               |
+57127690-5726  14663 AGA---------ACAATCAGTTG-------TGGT---------------T  14681
+
+156400281-156  15113 CGTGATCCACCCGCCTCGGCCTTCCAAAGTGCTGGGATTACAGGAATAAG  15162
+                     .||||               ||||  |.||.|||              ||
+57127690-5726  14682 TGTGA---------------CTTC--ATGTCCTG--------------AG  14700
+
+156400281-156  15163 ACACCGCGCGCAGCCGTTGTATCATTCTTA------TGCCTTT-------  15199
+                     ||        |||    |||||||||||||      |||.|||       
+57127690-5726  14701 AC--------CAG----TGTATCATTCTTAATGCCCTGCATTTTTAAGAA  14738
+
+156400281-156  15200 GTGTCCTCATAGC-TTAGCTCCCACATATCAGTGAGAACATACAATGTT-  15247
+                     .|..|||.|||.| ||||     |.|.||      .|||.|||||.||| 
+57127690-5726  14739 ATACCCTGATATCTTTAG-----AAAGAT------TAACTTACAAAGTTA  14777
+
+156400281-156  15248 --TGGTTTTCCATTCCTGAGTTACTTCACTTTGAATAATAGCCTCCAGGG  15295
+                       ||||         |||                   |||||||      
+57127690-5726  14778 GCTGGT---------CTG-------------------ATAGCCT------  14793
+
+156400281-156  15296 CCAGGCACTGTGGCT---CATGCCTA-TAATCCCAGCACTTTGGGAGGCC  15341
+                             |.|||.|   .||   || |||||||  |.||        ||
+57127690-5726  14794 --------TTTGGTTTTATAT---TAGTAATCCC--CCCT--------CC  14822
+
+156400281-156  15342 ---------GAGACAGGTGGATTACCTGAGGTCGGGAGTTTGAGACC---  15379
+                              ||||    ||||.| ||.|||.|   |.|.|.||| ||   
+57127690-5726  14823 CCCCCCAAAGAGA----TGGAGT-CCAGAGCT---GTGATGGAG-CCAAA  14863
+
+156400281-156  15380 AGC---------------CTGA---------CCAACGTGGAAAAACCCCG  15405
+                     |||               ||||         |||      |||||    |
+57127690-5726  14864 AGCAACTTCCTAGTTTCTCTGAAATAAGTACCCA------AAAAA----G  14903
+
+156400281-156  15406 T----CTCTAATAAAAA-----TACAAAATTAGCCGGGTGTGGTGGCACA  15446
+                     |    .||||.|..|||     .||||||||...||..|||..|||||||
+57127690-5726  14904 TGCTATTCTATTCCAAAGAGAGGACAAAATTCCACGCTTGTCCTGGCACA  14953
+
+156400281-156  15447 TGCTT----------ATAATCCCAGCTACTCAGGAGGCTGAGGCAGGAGA  15486
+                      |.||          .|||.|||||      ||  ||.|.|..|||||.|
+57127690-5726  14954 -GTTTTCCCGGTGGATTAACCCCAG------AG--GGTTAATTCAGGACA  14994
+
+156400281-156  15487 ----------ATCA-----CTT-----GAACTC  15499
+                               ||||     |||     ||||.|
+57127690-5726  14995 CAAACCTTTGATCAGGATTCTTACGGAGAACGC  15027
+
+
+#---------------------------------------
+#---------------------------------------
