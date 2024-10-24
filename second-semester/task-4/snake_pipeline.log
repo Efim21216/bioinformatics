@@ -1,0 +1,109 @@
+host: efim-Nitro-AN515-54
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count
+---------------------  -------
+all                          1
+bwa_map                      1
+check_mapping_quality        1
+fastqc                       1
+freebayes                    1
+sam_to_bam                   1
+samtools_flagstat            1
+samtools_sort                1
+total                        8
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Thu Oct 24 12:25:26 2024]
+localrule fastqc:
+    input: SRR11413027.fastq.gz
+    output: SRR11413027.html
+    jobid: 1
+    reason: Missing output files: SRR11413027.html
+    wildcards: sample=SRR11413027
+    resources: tmpdir=/tmp
+
+
+        fastqc SRR11413027.fastq.gz
+        mv SRR11413027_fastqc.html SRR11413027.html
+        rm SRR11413027_fastqc.zip
+
+[Thu Oct 24 12:25:26 2024]
+localrule bwa_map:
+    input: hg38.fa, SRR11413027.fastq.gz
+    output: SRR11413027_hg38.sam
+    jobid: 7
+    reason: Missing output files: SRR11413027_hg38.sam
+    wildcards: sample=SRR11413027, ref=hg38
+    resources: tmpdir=/tmp
+
+bwa mem hg38.fa SRR11413027.fastq.gz > SRR11413027_hg38.sam
+[Thu Oct 24 12:27:37 2024]
+Finished job 1.
+1 of 8 steps (12%) done
+[Thu Oct 24 13:25:27 2024]
+Finished job 7.
+2 of 8 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Oct 24 13:25:27 2024]
+localrule sam_to_bam:
+    input: SRR11413027_hg38.sam
+    output: SRR11413027_hg38.bam
+    jobid: 6
+    reason: Missing output files: SRR11413027_hg38.bam; Input files updated by another job: SRR11413027_hg38.sam
+    wildcards: sample=SRR11413027_hg38
+    resources: tmpdir=/tmp
+
+samtools view -b SRR11413027_hg38.sam -o SRR11413027_hg38.bam
+[Thu Oct 24 13:26:24 2024]
+Finished job 6.
+3 of 8 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Oct 24 13:26:24 2024]
+localrule samtools_flagstat:
+    input: SRR11413027_hg38.bam
+    output: SRR11413027_hg38.txt
+    jobid: 5
+    reason: Missing output files: SRR11413027_hg38.txt; Input files updated by another job: SRR11413027_hg38.bam
+    wildcards: sample=SRR11413027_hg38
+    resources: tmpdir=/tmp
+
+samtools flagstat SRR11413027_hg38.bam > SRR11413027_hg38.txt
+[Thu Oct 24 13:26:30 2024]
+Finished job 5.
+4 of 8 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Oct 24 13:26:30 2024]
+localrule check_mapping_quality:
+    input: SRR11413027_hg38.txt
+    output: SRR11413027_hg38-quality_check_passed.txt
+    jobid: 4
+    reason: Missing output files: SRR11413027_hg38-quality_check_passed.txt; Input files updated by another job: SRR11413027_hg38.txt
+    wildcards: sample=SRR11413027_hg38
+    resources: tmpdir=/tmp
+
+RuleException:
+CalledProcessError in file /home/efim/my/study/bio/pipeline.smk, line 48:
+Command 'set -euo pipefail;  /mnt/hdd/data/.conda/envs/snakemake/bin/python3.12 /home/efim/my/study/bio/.snakemake/scripts/tmp17da3bjf.quality_check.py' returned non-zero exit status 1.
+[Thu Oct 24 13:26:31 2024]
+Error in rule check_mapping_quality:
+    jobid: 4
+    input: SRR11413027_hg38.txt
+    output: SRR11413027_hg38-quality_check_passed.txt
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-10-24T122526.809554.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

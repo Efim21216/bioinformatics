@@ -1,0 +1,42 @@
+host: efim-Nitro-AN515-54
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count
+-----  -------
+all          1
+test         1
+total        2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Oct 24 12:19:19 2024]
+localrule test:
+    input: input.txt
+    output: up_input.txt
+    jobid: 1
+    reason: Missing output files: up_input.txt; Code has changed since last execution
+    wildcards: sample=input
+    resources: tmpdir=/tmp
+
+cat input.txt | tr [:lower:] [:upper:] > up_input.txt
+[Thu Oct 24 12:19:19 2024]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Oct 24 12:19:19 2024]
+localrule all:
+    input: up_input.txt
+    jobid: 0
+    reason: Input files updated by another job: up_input.txt
+    resources: tmpdir=/tmp
+
+[Thu Oct 24 12:19:19 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-10-24T121919.824509.snakemake.log
